@@ -7,28 +7,6 @@ Currently pursuing my undergraduate degree, I'm passionate about solving real-wo
 
 ---
 
-## What I Do
-
-- Build machine learning & deep learning models (CNNs, RNNs, Transformers)
-- Analyze and visualize data to extract meaningful insights
-- Work on practical and impactful projects such as:
-  - **Intelligent Handwritten Digit Classifier**
-  - **Real-Time Drowsiness Detection**
-  - **Sentiment Analysis of Product Reviews**
-  - **Credit Card Fraud Detection**
-- Edit videos and capture photography to tell visual stories
-
----
-
-## Skills & Tools
-
-**Languages**: Python, Java, C++, C  
-**Libraries**: NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, OpenCV  
-**Tools**: Git, Jupyter, Google Colab, Streamlit, Flask  
-**Creative**: DaVinci Resolve, Adobe Premiere Pro, Lightroom
-
----
-
 ## Currently Learning
 
 - NLP with Transformers & BERT  
