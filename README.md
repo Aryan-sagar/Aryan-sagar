@@ -19,7 +19,7 @@ Also building a **Distributed KV Store with Raft consensus** in C++ — a from-s
 
 Earlier work includes an **AutoML Framework** using genetic algorithms + Optuna for automated feature engineering and model selection.
 
-> 📌 *Add a one-line link to each repo here once pushed — recruiters click through fast, so make it easy.*
+> 
 
 ---
 
