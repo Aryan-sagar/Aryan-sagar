@@ -2,7 +2,7 @@
 
 **Data Engineer / ML Engineer in the making** — I build systems that turn raw data into something trustworthy: pipelines, ledgers, and models that don't fall over in production.
 
-Currently a BTech student at **IIT Ropar** building toward SWE / Data Engineering / ML roles in fintech.
+Currently a graduate from **IIT Ropar** building toward SWE / Data Engineering / ML roles in fintech.
 
 ---
 
