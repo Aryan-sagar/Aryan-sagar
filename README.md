@@ -211,29 +211,64 @@ A model that survives **bad data, distribution shift, retries, concurrent reques
 
 ---
 
-# Stack
+## ⚙️ Engineering Stack
 
-### Languages
+<table>
+<tr>
+<td valign="top" width="50%">
 
-`C` `C++` `Python` `Java` `SQL`
+### 💻 Languages
 
-### Data & ML
+`C` · `C++` · `Python` · `Java` · `SQL`
 
-`PyTorch` `TensorFlow` `Scikit-learn` `Pandas` `NumPy` `MLflow` `Optuna`
+</td>
+<td valign="top" width="50%">
 
-### Data Engineering & Infrastructure
+### 🧠 Machine Learning
 
-`PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Redis` `Docker` `AWS`
+`PyTorch` · `TensorFlow` · `Scikit-learn`  
+`Pandas` · `NumPy` · `MLflow` · `Optuna`
 
-### Backend
+</td>
+</tr>
 
-`FastAPI` `SQLAlchemy` `REST APIs` `Pytest`
+<tr>
+<td valign="top">
 
-### Tools
+### 🏗️ Data Engineering
 
-`Git` `GitHub` `Power BI`
+`PostgreSQL` · `MySQL` · `dbt`  
+`Airflow` · `Kafka` · `Redis`
 
----
+</td>
+<td valign="top">
+
+### ☁️ Infrastructure
+
+`Docker` · `AWS` · `Git` · `GitHub`
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+### 🔌 Backend & Systems
+
+`FastAPI` · `SQLAlchemy` · `REST APIs`  
+`Distributed Systems` · `Raft` · `Concurrency`
+
+</td>
+<td valign="top">
+
+### 🧪 Engineering
+
+`Pytest` · `System Design`  
+`Algorithms` · `Performance Engineering`
+
+</td>
+</tr>
+</table>
 
 # Selected work
 
@@ -258,14 +293,24 @@ Because good engineering and good filmmaking have something in common:
 
 ---
 
-# GitHub activity
+## 📊 GitHub
 
 <p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=transparent"
+    height="170"
+  />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=transparent" height="165"/>
-
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=Aryan-sagar&theme=transparent&hide_border=true"
+    height="170"
+  />
 </p>
 
 ---
