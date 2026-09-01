@@ -1,57 +1,288 @@
-# Hi, I'm Aryan Sagar 👋
+# Aryan Sagar
 
-**Data Engineer / ML Engineer in the making** — I build systems that turn raw data into something trustworthy: pipelines, ledgers, and models that don't fall over in production.
+### Building systems where **data, money, and decisions** meet.
 
-Currently a graduate from **IIT Ropar** building toward SWE / Data Engineering / ML roles in fintech.
+I'm a graduate of **IIT Ropar** working toward Data Engineering, ML Engineering, and Systems roles.
 
----
+I like building things from the ground up — not just models and dashboards, but the infrastructure underneath them: **data pipelines, financial ledgers, streaming systems, matching engines, distributed storage, and ML systems.**
 
-### 🔭 What I'm building right now
+My current obsession is simple:
 
-A 4-part fintech data platform, each project standing on its own but designed to connect:
-
-- **Transaction Data Warehouse & ELT Pipeline** — ingesting, modeling, and warehousing transaction data
-- **Idempotent Payments Ledger & Reconciliation Backend** — safe-by-design money movement
-- **Real-Time Risk & Fraud Scoring Engine** — streaming inference on live transactions
-- **Limit Order Book Matching Engine & Backtester** — low-latency matching + strategy backtesting
-
-Also building a **Distributed KV Store with Raft consensus** in C++ — a from-scratch systems project.
-
-Earlier work includes an **AutoML Framework** using genetic algorithms + Optuna for automated feature engineering and model selection.
-
-> 
+> **How do you build software that remains correct when everything around it is trying to make it fail?**
 
 ---
 
-### 🌱 Currently learning
+## `01` — What I'm building
 
-- NLP with Transformers & BERT
-- Generative AI & Self-Supervised Learning
+I'm developing a small **fintech systems portfolio** where each project explores a different class of production problem.
+
+```text
+                         FINTECH SYSTEMS LAB
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+       DATA PLATFORM       MONEY MOVEMENT      DECISION SYSTEMS
+             │                  │                  │
+             ▼                  ▼                  ▼
+       Data Warehouse       Payments Ledger    Risk / Fraud Engine
+       + ELT Pipeline       + Reconciliation   + Streaming Inference
+             │                                     │
+             └──────────────────┬──────────────────┘
+                                ▼
+                       MARKET INFRASTRUCTURE
+                                │
+                                ▼
+                  Limit Order Book + Backtester
+```
+
+### 🏦 Transaction Data Warehouse & ELT Pipeline
+
+**Problem:** Raw financial data is messy. Decisions shouldn't be.
+
+Building an end-to-end warehouse that ingests transaction data, transforms it into analytical models, and exposes trustworthy datasets for downstream analysis.
+
+`Python` `PostgreSQL` `dbt` `Airflow` `Docker`
 
 ---
 
-### 🧰 Tech Stack
+### 💳 Idempotent Payments Ledger & Reconciliation Backend
 
-**Languages:** ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
+**Problem:** Money movement cannot depend on "probably".
 
-**Data & ML:** ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white) ![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat-square&logo=numpy&logoColor=blue)
+A backend designed around financial correctness:
 
-**Infra & Data Engineering:** ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white) ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+* double-entry ledger
+* idempotent operations
+* transaction state machines
+* concurrency safety
+* reconciliation
+* immutable financial records
+* failure recovery
 
-**Creative tools:** ![Adobe Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF.svg?style=flat-square&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/Photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Lightroom-31A8FF.svg?style=flat-square&logo=Adobe%20Lightroom&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=Aryan-sagar&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=Aryan-sagar&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
 
 ---
 
-### 📫 Reach me
+### ⚡ Real-Time Risk & Fraud Scoring Engine
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-sagar-755947254) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aryansagar,workspace@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat-square&logo=Instagram&logoColor=white)](https://instagram.com/aryan.__.sagar)
+**Problem:** Fraud detection becomes much harder when decisions must happen while the transaction is happening.
 
-<sub>[](https://visitcount.itsvg.in/api?id=Aryan-sagar&icon=0&color=0)</sub>
+Building a streaming architecture for:
+
+```text
+Transaction
+    ↓
+Event Stream
+    ↓
+Feature State
+    ↓
+Risk Model
+    ↓
+Risk Score
+    ↓
+Decision
+```
+
+Exploring online feature computation, streaming inference, model monitoring, and production ML concerns.
+
+`Python` `Kafka` `Redis` `ML` `Docker`
+
+---
+
+### 📈 Limit Order Book Matching Engine & Backtester
+
+**Problem:** Markets don't wait for your algorithm.
+
+A low-level trading infrastructure project implementing:
+
+* price-time priority
+* order insertion
+* cancellation
+* matching
+* market / limit orders
+* trade generation
+* order book state
+* historical backtesting
+
+The goal is to understand **market microstructure and performance from first principles**, rather than hiding behind a trading library.
+
+`C++` `STL` `Algorithms` `Market Microstructure`
+
+---
+
+## `02` — Systems I'm exploring
+
+### 🗄️ Distributed KV Store
+
+A from-scratch **C++ distributed key-value store** exploring:
+
+```text
+Client
+  │
+  ▼
+┌─────────┐      ┌─────────┐      ┌─────────┐
+│ Node A  │◄────►│ Node B  │◄────►│ Node C  │
+│ Leader  │      │Follower │      │Follower │
+└─────────┘      └─────────┘      └─────────┘
+       \             │             /
+        └────────────┼────────────┘
+                     ▼
+                Raft Consensus
+```
+
+Learning by implementing the primitives myself:
+
+**consensus → replication → persistence → recovery → distributed state**
+
+`C++` `Raft` `Distributed Systems`
+
+---
+
+## `03` — ML experiments
+
+Before focusing heavily on systems, I spent time building ML projects around real-world prediction problems.
+
+### AutoML Framework
+
+An experimental AutoML system combining:
+
+* genetic algorithms
+* automated feature engineering
+* Optuna
+* model selection
+* hyperparameter optimization
+
+The interesting part wasn't calling `.fit()`.
+
+It was designing a system capable of **searching through the space around the model**.
+
+`Python` `Scikit-learn` `Optuna` `Genetic Algorithms`
+
+---
+
+## `04` — Currently learning
+
+I'm deliberately moving deeper rather than collecting frameworks.
+
+**Machine Learning**
+
+* Transformers
+* BERT
+* Self-Supervised Learning
+* Generative AI
+
+**Systems**
+
+* Distributed Systems
+* Consensus Algorithms
+* Storage Engines
+* Concurrency
+* Networking
+
+**Engineering**
+
+* System Design
+* Performance Engineering
+* Production ML
+* Data Infrastructure
+
+---
+
+# Engineering philosophy
+
+I care about the parts of software that are easy to ignore until production breaks them.
+
+```text
+             Correctness
+                  ▲
+                  │
+                  │
+      Reliability ┼────── Performance
+                  │
+                  │
+                  ▼
+             Observability
+```
+
+A model with great accuracy is interesting.
+
+A model that survives **bad data, distribution shift, retries, concurrent requests, failures, and real traffic** is engineering.
+
+---
+
+# Stack
+
+### Languages
+
+`C` `C++` `Python` `Java` `SQL`
+
+### Data & ML
+
+`PyTorch` `TensorFlow` `Scikit-learn` `Pandas` `NumPy` `MLflow` `Optuna`
+
+### Data Engineering & Infrastructure
+
+`PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Redis` `Docker` `AWS`
+
+### Backend
+
+`FastAPI` `SQLAlchemy` `REST APIs` `Pytest`
+
+### Tools
+
+`Git` `GitHub` `Power BI`
+
+---
+
+# Selected work
+
+| Project                  | What it demonstrates                           |
+| ------------------------ | ---------------------------------------------- |
+| 🏦 Transaction Warehouse | Data Engineering · ELT · Analytics             |
+| 💳 Payments Ledger       | Backend · Transactions · Financial Correctness |
+| ⚡ Risk Engine            | Streaming · ML · Real-Time Systems             |
+| 📈 Matching Engine       | C++ · Algorithms · Market Microstructure       |
+| 🗄️ Distributed KV Store | Raft · Consensus · Distributed Systems         |
+| 🧬 AutoML Framework      | ML · Optimization · Search                     |
+
+---
+
+# Beyond code
+
+I also spend an unreasonable amount of time learning **filmmaking, photography, cinematography, and visual storytelling.**
+
+Because good engineering and good filmmaking have something in common:
+
+**the details matter.**
+
+---
+
+# GitHub activity
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=transparent" height="165"/>
+
+</p>
+
+---
+
+# Let's connect
+
+**LinkedIn**
+[www.linkedin.com/in/aryan-sagar-755947254](http://www.linkedin.com/in/aryan-sagar-755947254)
+
+**Email**
+[2022mmb1372@iitrpr.ac.in](mailto:2022mmb1372@iitrpr.ac.in)
+
+**GitHub**
+github.com/Aryan-sagar
+
+---
+
+<p align="center">
+  <sub>Building. Breaking. Measuring. Rebuilding.</sub>
+</p>
