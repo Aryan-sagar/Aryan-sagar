@@ -276,7 +276,7 @@ Because good engineering and good filmmaking have something in common:
 [www.linkedin.com/in/aryan-sagar-755947254](http://www.linkedin.com/in/aryan-sagar-755947254)
 
 **Email**
-[2022mmb1372@iitrpr.ac.in](mailto:2022mmb1372@iitrpr.ac.in)
+[aryansagar.workspace@gmail.com](mailto:aryansagar.workspace@gmail.com)
 
 **GitHub**
 github.com/Aryan-sagar
