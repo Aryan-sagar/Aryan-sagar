@@ -12,9 +12,9 @@ My current obsession is simple:
 
 ---
 
-## `01` — What I'm building
+## `01` — Fintech Systems Lab (complete)
 
-I'm developing a small **fintech systems portfolio** where each project explores a different class of production problem.
+A 4-project fintech systems portfolio where each project explores a different class of production problem. **All four are built and shipped.**
 
 ```text
                          FINTECH SYSTEMS LAB
@@ -36,17 +36,18 @@ I'm developing a small **fintech systems portfolio** where each project explores
                   Limit Order Book + Backtester
 ```
 
-### 🏦 Transaction Data Warehouse & ELT Pipeline
+### ✅ 🏦 Transaction Data Warehouse & ELT Pipeline
 
 **Problem:** Raw financial data is messy. Decisions shouldn't be.
 
-Building an end-to-end warehouse that ingests transaction data, transforms it into analytical models, and exposes trustworthy datasets for downstream analysis.
+End-to-end warehouse that ingests transaction/account/merchant data, transforms it into a dimensional star-schema model (dim_accounts, dim_merchants, dim_date, fact_transactions), validates it with 48 automated dbt tests, and exposes it through an interactive analytics dashboard.
 
-`Python` `PostgreSQL` `dbt` `Airflow` `Docker`
+`Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Streamlit`
+**Repo:** [Transaction-Data-Warehouse-ELT-Pipeline](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)
 
 ---
 
-### 💳 Idempotent Payments Ledger & Reconciliation Backend
+### ✅ 💳 Idempotent Payments Ledger & Reconciliation Backend
 
 **Problem:** Money movement cannot depend on "probably".
 
@@ -61,61 +62,54 @@ A backend designed around financial correctness:
 * failure recovery
 
 `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
+**Repo:** [Idempotent-Payments-Ledger-Reconciliation-Backend](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)
 
 ---
 
-### ⚡ Real-Time Risk & Fraud Scoring Engine
+### ✅ ⚡ Real-Time Risk & Fraud Scoring Engine
 
 **Problem:** Fraud detection becomes much harder when decisions must happen while the transaction is happening.
 
-Building a streaming architecture for:
-
 ```text
-Transaction
-    ↓
-Event Stream
-    ↓
-Feature State
-    ↓
-Risk Model
-    ↓
-Risk Score
-    ↓
-Decision
+Transaction → Event Stream → Feature State → Risk Model → Risk Score → Decision
 ```
 
-Exploring online feature computation, streaming inference, model monitoring, and production ML concerns.
+Explores online feature computation, streaming inference, model monitoring, and production ML concerns.
 
 `Python` `Kafka` `Redis` `ML` `Docker`
+**Repo:** [Real-Time-Risk-Fraud-Scoring-Engine](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)
 
 ---
 
-### 📈 Limit Order Book Matching Engine & Backtester
+### ✅ 📈 Limit Order Book Matching Engine & Backtester
 
 **Problem:** Markets don't wait for your algorithm.
 
-A low-level trading infrastructure project implementing:
+Price-time priority limit order book (heap + hashmap-of-deques per side, O(1) cancel via lazy deletion, ~185k orders/sec single-threaded), a FastAPI order-entry layer, a Poisson-arrival order-flow generator, tick persistence + controlled-speed replay, and a backtester (Sharpe ratio, max drawdown, win rate, slippage) with two reference strategies. 67 tests passing across the repo.
 
-* price-time priority
-* order insertion
-* cancellation
-* matching
-* market / limit orders
-* trade generation
-* order book state
-* historical backtesting
-
-The goal is to understand **market microstructure and performance from first principles**, rather than hiding behind a trading library.
-
-`C++` `STL` `Algorithms` `Market Microstructure`
+`Python` `FastAPI` `C++/Rust (hot path)` `Algorithms` `Market Microstructure`
+**Repo:** [Limit-Order-Book-Matching-Engine-Backtester](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)
+**Remaining (optional stretch):** 3-node Raft-based state replication
 
 ---
 
-## `02` — Systems I'm exploring
+## `02` — Currently building
 
-### 🗄️ Distributed KV Store
+Diversifying beyond fintech with new systems and ML projects.
 
-A from-scratch **C++ distributed key-value store** exploring:
+### 🔄 Real-Time Collaborative Text Editor (in progress)
+
+A Google-Docs-style collaborative editor built around a custom **RGA (Replicated Growable Array) CRDT implemented from scratch** — no off-the-shelf library like Yjs.
+
+* Custom RGA sequence CRDT: deterministic concurrent-insert tie-breaking, tombstone deletes, out-of-order delivery buffer — validated with 2500+ randomized convergence trials plus an exhaustive permutation test
+* FastAPI WebSocket relay server: per-client local replicas, materialized view for late-joiner snapshot sync, presence join/leave broadcasts — 13/13 integration tests passing
+
+`Python` `FastAPI` `WebSockets` `CRDTs`
+**Status:** M1 (CRDT core) and M2 (relay server) complete. Next: browser frontend, offline edit/reconnect merge, undo/redo.
+
+### 🗄️ Distributed KV Store (planned)
+
+A from-scratch **C++ distributed key-value store** exploring consensus, replication, and recovery, implementing the primitives directly rather than reaching for a library:
 
 ```text
 Client
@@ -131,11 +125,13 @@ Client
                 Raft Consensus
 ```
 
-Learning by implementing the primitives myself:
-
 **consensus → replication → persistence → recovery → distributed state**
 
 `C++` `Raft` `Distributed Systems`
+
+### 🔎 Hybrid Semantic Search / Ranking Engine (planned)
+
+A non-fintech ML project rounding out the new portfolio track — combining semantic retrieval with a learned ranking layer.
 
 ---
 
@@ -153,9 +149,7 @@ An experimental AutoML system combining:
 * model selection
 * hyperparameter optimization
 
-The interesting part wasn't calling `.fit()`.
-
-It was designing a system capable of **searching through the space around the model**.
+The interesting part wasn't calling `.fit()`. It was designing a system capable of **searching through the space around the model**.
 
 `Python` `Scikit-learn` `Optuna` `Genetic Algorithms`
 
@@ -166,14 +160,12 @@ It was designing a system capable of **searching through the space around the mo
 I'm deliberately moving deeper rather than collecting frameworks.
 
 **Machine Learning**
-
 * Transformers
 * BERT
 * Self-Supervised Learning
 * Generative AI
 
 **Systems**
-
 * Distributed Systems
 * Consensus Algorithms
 * Storage Engines
@@ -181,7 +173,6 @@ I'm deliberately moving deeper rather than collecting frameworks.
 * Networking
 
 **Engineering**
-
 * System Design
 * Performance Engineering
 * Production ML
@@ -197,9 +188,7 @@ I care about the parts of software that are easy to ignore until production brea
              Correctness
                   ▲
                   │
-                  │
       Reliability ┼────── Performance
-                  │
                   │
                   ▼
              Observability
@@ -218,52 +207,44 @@ A model that survives **bad data, distribution shift, retries, concurrent reques
 <td valign="top" width="50%">
 
 ### 💻 Languages
-
 `C` · `C++` · `Python` · `Java` · `SQL`
 
 </td>
 <td valign="top" width="50%">
 
 ### 🧠 Machine Learning
-
-`PyTorch` · `TensorFlow` · `Scikit-learn`  
+`PyTorch` · `TensorFlow` · `Scikit-learn`
 `Pandas` · `NumPy` · `MLflow` · `Optuna`
 
 </td>
 </tr>
-
 <tr>
 <td valign="top">
 
 ### 🏗️ Data Engineering
-
-`PostgreSQL` · `MySQL` · `dbt`  
+`PostgreSQL` · `MySQL` · `dbt`
 `Airflow` · `Kafka` · `Redis`
 
 </td>
 <td valign="top">
 
 ### ☁️ Infrastructure
-
 `Docker` · `AWS` · `Git` · `GitHub`
 
 </td>
 </tr>
-
 <tr>
 <td valign="top">
 
 ### 🔌 Backend & Systems
-
-`FastAPI` · `SQLAlchemy` · `REST APIs`  
-`Distributed Systems` · `Raft` · `Concurrency`
+`FastAPI` · `SQLAlchemy` · `REST APIs`
+`WebSockets` · `CRDTs` · `Distributed Systems` · `Raft` · `Concurrency`
 
 </td>
 <td valign="top">
 
 ### 🧪 Engineering
-
-`Pytest` · `System Design`  
+`Pytest` · `System Design`
 `Algorithms` · `Performance Engineering`
 
 </td>
@@ -272,14 +253,15 @@ A model that survives **bad data, distribution shift, retries, concurrent reques
 
 # Selected work
 
-| Project                  | What it demonstrates                           |
-| ------------------------ | ---------------------------------------------- |
-| 🏦 Transaction Warehouse | Data Engineering · ELT · Analytics             |
-| 💳 Payments Ledger       | Backend · Transactions · Financial Correctness |
-| ⚡ Risk Engine            | Streaming · ML · Real-Time Systems             |
-| 📈 Matching Engine       | C++ · Algorithms · Market Microstructure       |
-| 🗄️ Distributed KV Store | Raft · Consensus · Distributed Systems         |
-| 🧬 AutoML Framework      | ML · Optimization · Search                     |
+| Project | Status | What it demonstrates |
+| --- | --- | --- |
+| 🏦 Transaction Warehouse | ✅ Built | Data Engineering · ELT · Analytics |
+| 💳 Payments Ledger | ✅ Built | Backend · Transactions · Financial Correctness |
+| ⚡ Risk Engine | ✅ Built | Streaming · ML · Real-Time Systems |
+| 📈 Matching Engine & Backtester | ✅ Built | Algorithms · Market Microstructure · Backtesting |
+| 🔄 Collaborative Text Editor | 🔄 In progress | CRDTs · WebSockets · Distributed State |
+| 🗄️ Distributed KV Store | 🗓️ Planned | Raft · Consensus · Distributed Systems |
+| 🧬 AutoML Framework | ✅ Built | ML · Optimization · Search |
 
 ---
 
@@ -287,9 +269,7 @@ A model that survives **bad data, distribution shift, retries, concurrent reques
 
 I also spend an unreasonable amount of time learning **filmmaking, photography, cinematography, and visual storytelling.**
 
-Because good engineering and good filmmaking have something in common:
-
-**the details matter.**
+Because good engineering and good filmmaking have something in common: **the details matter.**
 
 ---
 
