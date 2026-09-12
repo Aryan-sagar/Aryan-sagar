@@ -1,313 +1,379 @@
-# Aryan Sagar
+# ⚡ ARYAN SAGAR
 
-### Building systems where **data, money, and decisions** meet.
+### `SYSTEMS ENGINEER // ML ENGINEER // DATA BUILDER`
 
-I'm a graduate of **IIT Ropar** working toward Data Engineering, ML Engineering, and Systems roles.
+> **I build systems where data, money, and decisions meet.**
+> 
+> Not demos. Not `.fit()` and call it a day.
+> **Systems that remain correct when everything around them goes wrong.**
 
-I like building things from the ground up — not just models and dashboards, but the infrastructure underneath them: **data pipelines, financial ledgers, streaming systems, matching engines, distributed storage, and ML systems.**
-
-My current obsession is simple:
-
-> **How do you build software that remains correct when everything around it is trying to make it fail?**
+<p align="center">
+  <a href="https://www.iitrpr.ac.in/">
+    <img src="https://img.shields.io/badge/IIT%20Ropar-Graduate-8B0000?style=for-the-badge&logo=academia&logoColor=white" alt="IIT Ropar">
+  </a>
+  <a href="https://github.com/Aryan-sagar">
+    <img src="https://img.shields.io/badge/Focus-Systems-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Systems">
+  </a>
+  <a href="https://github.com/Aryan-sagar">
+    <img src="https://img.shields.io/badge/Focus-Machine%20Learning-2563eb?style=for-the-badge&logo=python&logoColor=white" alt="ML">
+  </a>
+  <a href="https://github.com/Aryan-sagar">
+    <img src="https://img.shields.io/badge/Focus-Data%20Engineering-059669?style=for-the-badge&logo=apache&logoColor=white" alt="Data">
+  </a>
+</p>
 
 ---
 
-## `01` — Fintech Systems Lab (complete)
-
-A 4-project fintech systems portfolio where each project explores a different class of production problem. **All four are built and shipped.**
+# `> BOOT_SEQUENCE`
 
 ```text
-                         FINTECH SYSTEMS LAB
-                                │
-             ┌──────────────────┼──────────────────┐
-             │                  │                  │
-             ▼                  ▼                  ▼
-       DATA PLATFORM       MONEY MOVEMENT      DECISION SYSTEMS
-             │                  │                  │
-             ▼                  ▼                  ▼
-       Data Warehouse       Payments Ledger    Risk / Fraud Engine
-       + ELT Pipeline       + Reconciliation   + Streaming Inference
-             │                                     │
-             └──────────────────┬──────────────────┘
-                                ▼
-                       MARKET INFRASTRUCTURE
-                                │
-                                ▼
-                  Limit Order Book + Backtester
+INITIALIZING ARYAN.SAGAR...
+
+[████████████████████████████████] 100%
+
+IDENTITY        → SYSTEMS / ML / DATA
+ENVIRONMENT     → DISTRIBUTED SYSTEMS
+PRIMARY WEAPON  → PYTHON / C++ / SQL
+CURRENT MODE    → BUILD
+STATUS          → ONLINE
+
+MISSION:
+    Build software that stays correct
+    when reality stops cooperating.
+
+    • retries & race conditions
+    • duplicate requests & bad data
+    • network failures & concurrent writes
+    • distribution shift & partial outages
+
+SYSTEM READY.
 ```
 
-### ✅ 🏦 Transaction Data Warehouse & ELT Pipeline
+---
 
-**Problem:** Raw financial data is messy. Decisions shouldn't be.
+# `01` — THE ENGINEERING LAB
 
-End-to-end warehouse that ingests transaction/account/merchant data, transforms it into a dimensional star-schema model (dim_accounts, dim_merchants, dim_date, fact_transactions), validates it with 48 automated dbt tests, and exposes it through an interactive analytics dashboard.
+I don't build random projects. Each project is an experiment around a **specific production problem**.
 
+```text
+                         ┌─────────────────────┐
+                         │    ARYAN'S LAB      │
+                         └──────────┬──────────┘
+                                    │
+             ┌──────────────────────┼──────────────────────┐
+             │                      │                      │
+             ▼                      ▼                      ▼
+       DATA SYSTEMS           MONEY SYSTEMS         DECISION SYSTEMS
+             │                      │                      │
+             ▼                      ▼                      ▼
+      Transaction DW         Payments Ledger       Risk Engine
+      + ELT Pipeline         + Reconciliation      + Streaming ML
+             │                      │                      │
+             └──────────────────────┼──────────────────────┘
+                                    │
+                                    ▼
+                         MARKET INFRASTRUCTURE
+                                    │
+                                    ▼
+                       Limit Order Book Engine
+                              + Backtester
+```
+
+---
+
+# `02` — BOSS FIGHTS DEFEATED
+
+> [!WARNING]
+> ### 🏦 BOSS: CHAOTIC FINANCIAL DATA
+> **Raw data is messy. Decisions shouldn't be.**
+
+Built an end-to-end financial data platform transforming raw transaction, account, and merchant data into an analytics-ready dimensional warehouse.
+
+```text
+RAW DATA → INGESTION → AIRFLOW → POSTGRES → DBT TRANSFORMATIONS
+                                                       ├── dim_accounts
+                                                       ├── dim_merchants
+                                                       ├── dim_date
+                                                       └── fact_transactions
+                                                       ↓
+                                               48 AUTOMATED TESTS → ANALYTICS → STREAMLIT
+```
+
+**What I cared about:** dimensional modeling · ELT architecture · data quality · orchestration · reproducibility · automated validation · analytical workloads  
 `Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Streamlit`
-**Repo:** [Transaction-Data-Warehouse-ELT-Pipeline](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)
+
+**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)**
 
 ---
 
-### ✅ 💳 Idempotent Payments Ledger & Reconciliation Backend
+> [!DANGER]
+> ### 💳 BOSS: MONEY + RETRIES + CONCURRENCY
+> **Money movement cannot depend on "probably".**
 
-**Problem:** Money movement cannot depend on "probably".
+A backend designed around financial correctness rather than simply returning `200 OK`.
 
-A backend designed around financial correctness:
+```text
+CLIENT → API REQUEST → IDEMPOTENCY CHECK → TRANSACTION STATE → DOUBLE-ENTRY LEDGER
+                                                                     ├── ACCOUNT A
+                                                                     └── ACCOUNT B
+                                                                     ↓
+                                                            RECONCILIATION → FAILURE RECOVERY
+```
 
-* double-entry ledger
-* idempotent operations
-* transaction state machines
-* concurrency safety
-* reconciliation
-* immutable financial records
-* failure recovery
-
+**Built around:** `✓` Double-entry accounting · `✓` Idempotent operations · `✓` Transaction state machines · `✓` Concurrency safeguards · `✓` Immutable financial records · `✓` Reconciliation · `✓` Failure recovery  
 `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
-**Repo:** [Idempotent-Payments-Ledger-Reconciliation-Backend](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)
+
+**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)**
 
 ---
 
-### ✅ ⚡ Real-Time Risk & Fraud Scoring Engine
-
-**Problem:** Fraud detection becomes much harder when decisions must happen while the transaction is happening.
+> [!IMPORTANT]
+> ### ⚡ BOSS: MAKE THE DECISION BEFORE THE FRAUDSTER DOES
+> **A streaming ML system where the model doesn't get the luxury of waiting for tomorrow's batch job.**
 
 ```text
-Transaction → Event Stream → Feature State → Risk Model → Risk Score → Decision
+TRANSACTION → EVENT STREAM → FEATURE STATE → RISK MODEL → RISK SCORE
+                                                             ├── ALLOW
+                                                             └── BLOCK
 ```
 
-Explores online feature computation, streaming inference, model monitoring, and production ML concerns.
-
+**Explores:** streaming inference · online feature computation · feature state · model serving · risk decisions · model monitoring · production ML failure modes  
 `Python` `Kafka` `Redis` `ML` `Docker`
-**Repo:** [Real-Time-Risk-Fraud-Scoring-Engine](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)
+
+**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)**
 
 ---
 
-### ✅ 📈 Limit Order Book Matching Engine & Backtester
+> [!NOTE]
+> ### 📈 BOSS: THE MARKET
+> **Markets don't wait for your algorithm.**
 
-**Problem:** Markets don't wait for your algorithm.
+A from-scratch market microstructure system implementing a price-time-priority order book and research backtesting infrastructure.
 
-Price-time priority limit order book (heap + hashmap-of-deques per side, O(1) cancel via lazy deletion, ~185k orders/sec single-threaded), a FastAPI order-entry layer, a Poisson-arrival order-flow generator, tick persistence + controlled-speed replay, and a backtester (Sharpe ratio, max drawdown, win rate, slippage) with two reference strategies. 67 tests passing across the repo.
+**Current implementation:** price-time priority · heap-based price levels · hashmap-of-deques · lazy deletion · O(1) cancel path · FastAPI order-entry layer · Poisson order-flow generator · tick persistence · controlled-speed replay · backtesting engine · reference strategies · Sharpe ratio · max drawdown · win rate · slippage analysis · **67 tests passing**
 
-`Python` `FastAPI` `C++/Rust (hot path)` `Algorithms` `Market Microstructure`
-**Repo:** [Limit-Order-Book-Matching-Engine-Backtester](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)
-**Remaining (optional stretch):** 3-node Raft-based state replication
+**Performance:** `~185,000 orders/sec` (single-threaded)  
+`Python` `FastAPI` `C++ / Rust hot-path exploration` `Algorithms` `Market Microstructure`
+
+**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)**
 
 ---
 
-## `02` — Currently building
+# `03` — CURRENT MISSION
 
-Diversifying beyond fintech with new systems and ML projects.
+## 🔄 REAL-TIME COLLABORATIVE TEXT EDITOR
+### `STATUS: [██████████████████░░] 80%`
 
-### 🔄 Real-Time Collaborative Text Editor (in progress)
-
-A Google-Docs-style collaborative editor built around a custom **RGA (Replicated Growable Array) CRDT implemented from scratch** — no off-the-shelf library like Yjs.
-
-* Custom RGA sequence CRDT: deterministic concurrent-insert tie-breaking, tombstone deletes, out-of-order delivery buffer — validated with 2500+ randomized convergence trials plus an exhaustive permutation test
-* FastAPI WebSocket relay server: per-client local replicas, materialized view for late-joiner snapshot sync, presence join/leave broadcasts — 13/13 integration tests passing
-
-`Python` `FastAPI` `WebSockets` `CRDTs`
-**Status:** M1 (CRDT core) and M2 (relay server) complete. Next: browser frontend, offline edit/reconnect merge, undo/redo.
-
-### 🗄️ Distributed KV Store (planned)
-
-A from-scratch **C++ distributed key-value store** exploring consensus, replication, and recovery, implementing the primitives directly rather than reaching for a library:
+Building a Google-Docs-style collaborative editor **without hiding the hard part behind Yjs or another CRDT library.** The core distributed state mechanism is built from scratch.
 
 ```text
-Client
-  │
-  ▼
-┌─────────┐      ┌─────────┐      ┌─────────┐
-│ Node A  │◄────►│ Node B  │◄────►│ Node C  │
-│ Leader  │      │Follower │      │Follower │
-└─────────┘      └─────────┘      └─────────┘
-       \             │             /
-        └────────────┼────────────┘
-                     ▼
-                Raft Consensus
+USER A → LOCAL RGA → WEBSOCKET → FASTAPI RELAY → USER B (LOCAL RGA)
+                                                → USER C (LOCAL RGA)
+                                                ↓
+                                          CONVERGENCE
 ```
 
-**consensus → replication → persistence → recovery → distributed state**
+**Already defeated:**  
+`✓` Custom RGA sequence CRDT · `✓` Deterministic concurrent insertion · `✓` Tombstone deletion · `✓` Out-of-order delivery buffering · `✓` 2,500+ randomized convergence trials · `✓` Exhaustive permutation testing · `✓` Materialized late-joiner snapshots · `✓` Presence broadcasts · `✓` WebSocket relay · `✓` 13/13 integration tests
 
-`C++` `Raft` `Distributed Systems`
+**Next boss:**  
+`[ ]` Browser frontend · `[ ]` Offline editing · `[ ]` Reconnect + merge · `[ ]` Undo / redo
 
-### 🔎 Hybrid Semantic Search / Ranking Engine (planned)
+`Python` `FastAPI` `WebSockets` `CRDTs` `Distributed State`
 
-A non-fintech ML project rounding out the new portfolio track — combining semantic retrieval with a learned ranking layer.
-
----
-
-## `03` — ML experiments
-
-Before focusing heavily on systems, I spent time building ML projects around real-world prediction problems.
-
-### AutoML Framework
-
-An experimental AutoML system combining:
-
-* genetic algorithms
-* automated feature engineering
-* Optuna
-* model selection
-* hyperparameter optimization
-
-The interesting part wasn't calling `.fit()`. It was designing a system capable of **searching through the space around the model**.
-
-`Python` `Scikit-learn` `Optuna` `Genetic Algorithms`
+**[→ WATCH THE BUILD](https://github.com/Aryan-sagar)**
 
 ---
 
-## `04` — Currently learning
+# `04` — SIDE QUESTS
 
-I'm deliberately moving deeper rather than collecting frameworks.
+Not everything I build belongs to the main lab.
 
-**Machine Learning**
-* Transformers
-* BERT
-* Self-Supervised Learning
-* Generative AI
-
-**Systems**
-* Distributed Systems
-* Consensus Algorithms
-* Storage Engines
-* Concurrency
-* Networking
-
-**Engineering**
-* System Design
-* Performance Engineering
-* Production ML
-* Data Infrastructure
-
----
-
-# Engineering philosophy
-
-I care about the parts of software that are easy to ignore until production breaks them.
+### 🧬 AutoML Framework
+An experimental AutoML system exploring the search space **around** the model.
 
 ```text
-             Correctness
-                  ▲
-                  │
-      Reliability ┼────── Performance
-                  │
-                  ▼
-             Observability
+DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARCH → WINNER
+```
+`Scikit-learn` `Optuna` `Genetic Algorithms` `Python`
+
+---
+
+# `05` — SKILL TREE
+
+```text
+SYSTEMS
+├── Distributed Systems       █████████░
+├── Concurrency               ████████░░
+├── Networking                ███████░░░
+├── Storage                   ███████░░░
+├── Consensus / Raft          ██████░░░░
+└── Performance Engineering   ████████░░
+
+DATA
+├── PostgreSQL                █████████░
+├── SQL                       █████████░
+├── dbt                       ████████░░
+├── Airflow                   ████████░░
+├── Kafka                     ████████░░
+└── Redis                     ████████░░
+
+ML
+├── PyTorch                   ████████░░
+├── TensorFlow                ███████░░░
+├── Scikit-learn              █████████░
+├── ML Systems                ███████░░░
+├── Transformers              ██████░░░░
+└── Production ML             ███████░░░
+
+ENGINEERING
+├── Python                    █████████░
+├── C++                       ████████░░
+├── Java                      ███████░░░
+├── FastAPI                   █████████░
+├── Docker                    ████████░░
+└── Testing                   █████████░
+```
+*Bars represent current working depth, not a claim of mastery.*
+
+---
+
+# `06` — TECH ARSENAL
+
+- **Languages:** `C` `C++` `Python` `Java` `SQL`
+- **Data:** `PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Redis`
+- **ML:** `PyTorch` `TensorFlow` `Scikit-learn` `Pandas` `NumPy` `MLflow` `Optuna`
+- **Backend:** `FastAPI` `SQLAlchemy` `REST` `WebSockets`
+- **Infrastructure:** `Docker` `AWS` `Git` `GitHub`
+- **Systems:** `CRDTs` `Distributed Systems` `Raft` `Concurrency` `Algorithms` `Performance Engineering`
+
+---
+
+# `07` — THE RULES
+
+I optimize for a few things.
+
+```text
+┌────────────────────────────────────────────┐
+│                                            │
+│                CORRECTNESS                 │
+│                     ▲                      │
+│                     │                      │
+│         RELIABILITY ┼ PERFORMANCE          │
+│                     │                      │
+│                     ▼                      │
+│               OBSERVABILITY                │
+│                                            │
+└────────────────────────────────────────────┘
 ```
 
-A model with great accuracy is interesting.
-
-A model that survives **bad data, distribution shift, retries, concurrent requests, failures, and real traffic** is engineering.
-
----
-
-## ⚙️ Engineering Stack
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### 💻 Languages
-`C` · `C++` · `Python` · `Java` · `SQL`
-
-</td>
-<td valign="top" width="50%">
-
-### 🧠 Machine Learning
-`PyTorch` · `TensorFlow` · `Scikit-learn`
-`Pandas` · `NumPy` · `MLflow` · `Optuna`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🏗️ Data Engineering
-`PostgreSQL` · `MySQL` · `dbt`
-`Airflow` · `Kafka` · `Redis`
-
-</td>
-<td valign="top">
-
-### ☁️ Infrastructure
-`Docker` · `AWS` · `Git` · `GitHub`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🔌 Backend & Systems
-`FastAPI` · `SQLAlchemy` · `REST APIs`
-`WebSockets` · `CRDTs` · `Distributed Systems` · `Raft` · `Concurrency`
-
-</td>
-<td valign="top">
-
-### 🧪 Engineering
-`Pytest` · `System Design`
-`Algorithms` · `Performance Engineering`
-
-</td>
-</tr>
-</table>
-
-# Selected work
-
-| Project | Status | What it demonstrates |
-| --- | --- | --- |
-| 🏦 Transaction Warehouse | ✅ Built | Data Engineering · ELT · Analytics |
-| 💳 Payments Ledger | ✅ Built | Backend · Transactions · Financial Correctness |
-| ⚡ Risk Engine | ✅ Built | Streaming · ML · Real-Time Systems |
-| 📈 Matching Engine & Backtester | ✅ Built | Algorithms · Market Microstructure · Backtesting |
-| 🔄 Collaborative Text Editor | 🔄 In progress | CRDTs · WebSockets · Distributed State |
-| 🗄️ Distributed KV Store | 🗓️ Planned | Raft · Consensus · Distributed Systems |
-| 🧬 AutoML Framework | ✅ Built | ML · Optimization · Search |
+1. **Correctness before cleverness:** A system that produces the wrong answer faster is still wrong.
+2. **Failure is a feature:** Retries, duplicate messages, race conditions, partial failures, and corrupted assumptions aren't edge cases. They're the system.
+3. **Measure it:** If performance matters: **benchmark it.** If reliability matters: **test it.** If a model matters: **evaluate it.**
+4. **Understand the abstraction:** I like frameworks. I like them much less when I don't understand what they're hiding.
 
 ---
 
-# Beyond code
+# `08` — CURRENTLY LEARNING
 
-I also spend an unreasonable amount of time learning **filmmaking, photography, cinematography, and visual storytelling.**
-
-Because good engineering and good filmmaking have something in common: **the details matter.**
+```text
+                ┌─────────────────┐
+                │   GO DEEPER     │
+                └────────┬────────┘
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+   DISTRIBUTED       ML SYSTEMS       STORAGE
+    SYSTEMS                              
+        │                │                │
+   • Consensus      • Transformers   • WAL / LSM
+   • Replication    • Serving        • Compaction
+   • Fault Tol.     • Evaluation     • Indexing
+   • Failure Rec.   • Monitoring     • Recovery
+```
 
 ---
 
-## 📊 GitHub
+# `09` — THE NUMBERS
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true"
-    height="170"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=transparent"
-    height="170"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Aryan-sagar&theme=transparent&hide_border=true"
-    height="170"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=radical&include_all_commits=true" height="170" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=radical" height="170" alt="Top Langs"/>
+  <img src="https://streak-stats.demolab.com?user=Aryan-sagar&theme=radical&hide_border=true" height="170" alt="Streak"/>
 </p>
 
 ---
 
-# Let's connect
+# `10` — ACHIEVEMENT LOG
 
-**LinkedIn**
-[www.linkedin.com/in/aryan-sagar-755947254](http://www.linkedin.com/in/aryan-sagar-755947254)
+```text
+╔══════════════════════════════════════════════════════╗
+║                  ACHIEVEMENTS                        ║
+╠══════════════════════════════════════════════════════╣
+║                                                      ║
+║  🏦 DATA ARCHITECT                                   ║
+║  Built an end-to-end financial warehouse             ║
+║                                                      ║
+║  💳 LEDGER KEEPER                                    ║
+║  Built an idempotent double-entry payment system     ║
+║                                                      ║
+║  ⚡ REAL-TIME HUNTER                                 ║
+║  Built a streaming fraud decision engine             ║
+║                                                      ║
+║  📈 MARKET MAKER                                     ║
+║  Built a limit-order matching engine                 ║
+║                                                      ║
+║  🧠 DISTRIBUTED THINKER                              ║
+║  Built an RGA CRDT from scratch                      ║
+║                                                      ║
+║  🧪 EXPERIMENTALIST                                  ║
+║  Built an AutoML search framework                    ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+```
 
-**Email**
-[aryansagar.workspace@gmail.com](mailto:aryansagar.workspace@gmail.com)
+---
 
-**GitHub**
-github.com/Aryan-sagar
+# `11` — OUTSIDE THE TERMINAL
+
+When I'm not thinking about distributed state, race conditions, or financial ledgers:
+
+🎬 Filmmaking · 📷 Photography · 🎞️ Cinematography · 🎸 Guitar · 📚 Psychology, philosophy & history
+
+> *Because engineering and filmmaking share one annoying truth:*  
+> **The details matter.**
+
+---
+
+# `12` — CONNECT
+
+<p align="center">
+
+### Want to talk systems, ML, data, markets, or just build something ridiculous?
+
+**[LinkedIn](http://www.linkedin.com/in/aryan-sagar-755947254)** · **[GitHub](https://github.com/Aryan-sagar)** · **[Email](mailto:aryansagar.workspace@gmail.com)**
+
+</p>
 
 ---
 
 <p align="center">
-  <sub>Building. Breaking. Measuring. Rebuilding.</sub>
+
+```text
+BUILD → BREAK → MEASURE → UNDERSTAND → REBUILD
+
+                         ↓
+
+              MAKE IT SURVIVE REALITY.
+```
+
+### `SYSTEM STATUS: BUILDING`
+
 </p>
+```
+
+### 💡 Why this works better:
+- **`> [!WARNING]` Callouts**: GitHub natively renders these with a colored left border and icon, making your "Boss Fights" instantly recognizable and visually distinct from regular text.
+- **Monospace Perfection**: The ASCII diagrams now use consistent padding. For example, in the Skill Tree, every category name is padded to exactly 31 characters, guaranteeing the `███` bars form a perfectly straight vertical line.
+- **Theme Resilience**: Changed the stats widgets to `theme=radical`. The previous `transparent` theme often results in unreadable light-on-light or dark-on-dark text depending on the visitor's GitHub settings. `radical` provides high contrast that looks great universally.
+- **Condensed Flow Diagrams**: Simplified some of the vertical ASCII flows into cleaner, single-line arrow flows (`→`) where appropriate, reducing vertical scroll fatigue while maintaining the technical aesthetic.
