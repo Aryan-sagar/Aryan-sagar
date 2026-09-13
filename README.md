@@ -370,10 +370,3 @@ BUILD → BREAK → MEASURE → UNDERSTAND → REBUILD
 ### `SYSTEM STATUS: BUILDING`
 
 </p>
-```
-
-### 💡 Why this works better:
-- **`> [!WARNING]` Callouts**: GitHub natively renders these with a colored left border and icon, making your "Boss Fights" instantly recognizable and visually distinct from regular text.
-- **Monospace Perfection**: The ASCII diagrams now use consistent padding. For example, in the Skill Tree, every category name is padded to exactly 31 characters, guaranteeing the `███` bars form a perfectly straight vertical line.
-- **Theme Resilience**: Changed the stats widgets to `theme=radical`. The previous `transparent` theme often results in unreadable light-on-light or dark-on-dark text depending on the visitor's GitHub settings. `radical` provides high contrast that looks great universally.
-- **Condensed Flow Diagrams**: Simplified some of the vertical ASCII flows into cleaner, single-line arrow flows (`→`) where appropriate, reducing vertical scroll fatigue while maintaining the technical aesthetic.
