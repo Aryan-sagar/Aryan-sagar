@@ -3,7 +3,7 @@
 ### `SYSTEMS ENGINEER // ML ENGINEER // DATA BUILDER`
 
 > **I build systems where data, money, and decisions meet.**
-> 
+>
 > Not demos. Not `.fit()` and call it a day.
 > **Systems that remain correct when everything around them goes wrong.**
 
@@ -24,7 +24,7 @@
 
 ---
 
-# `> BOOT_SEQUENCE`
+## `> BOOT_SEQUENCE`
 
 ```text
 INITIALIZING ARYAN.SAGAR...
@@ -32,8 +32,8 @@ INITIALIZING ARYAN.SAGAR...
 [████████████████████████████████] 100%
 
 IDENTITY        → SYSTEMS / ML / DATA
-ENVIRONMENT     → DISTRIBUTED SYSTEMS
-PRIMARY WEAPON  → PYTHON / C++ / SQL
+ENVIRONMENT     → DISTRIBUTED SYSTEMS / STREAMING
+PRIMARY WEAPON  → PYTHON / C++ / SQL / FLINK
 CURRENT MODE    → BUILD
 STATUS          → ONLINE
 
@@ -45,62 +45,80 @@ MISSION:
     • duplicate requests & bad data
     • network failures & concurrent writes
     • distribution shift & partial outages
+    • exactly-once semantics & backpressure
+    • out-of-order events & late data
 
 SYSTEM READY.
 ```
 
 ---
 
-# `01` — THE ENGINEERING LAB
-
-I don't build random projects. Each project is an experiment around a **specific production problem**.
+## `01` — THE MAP
 
 ```text
-                         ┌─────────────────────┐
-                         │    ARYAN'S LAB      │
-                         └──────────┬──────────┘
-                                    │
-             ┌──────────────────────┼──────────────────────┐
-             │                      │                      │
-             ▼                      ▼                      ▼
-       DATA SYSTEMS           MONEY SYSTEMS         DECISION SYSTEMS
-             │                      │                      │
-             ▼                      ▼                      ▼
-      Transaction DW         Payments Ledger       Risk Engine
-      + ELT Pipeline         + Reconciliation      + Streaming ML
-             │                      │                      │
-             └──────────────────────┼──────────────────────┘
-                                    │
-                                    ▼
-                         MARKET INFRASTRUCTURE
-                                    │
-                                    ▼
-                       Limit Order Book Engine
-                              + Backtester
+                         ┌─────────────────────────┐
+                         │     ARYAN'S LAB         │
+                         │   (a working system)    │
+                         └────────────┬────────────┘
+                                      │
+        ┌──────────────┬──────────────┼──────────────┬──────────────┐
+        │              │              │              │              │
+        ▼              ▼              ▼              ▼              ▼
+   DATA LAKE      STREAMING       MONEY         DECISION        MARKET
+   (storage)      (compute)      (ledger)       (real-time)     (microstructure)
+        │              │              │              │              │
+        ▼              ▼              ▼              ▼              ▼
+   Transaction    Flink Jobs      Payments      Risk Scoring    Limit Order
+   DW + ELT       + Kafka         Ledger        Engine          Book Engine
+   Pipeline       + Redis         + Recon.      + Streaming     + Backtester
+        │              │              │              │              │
+        └──────────────┴──────────────┼──────────────┴──────────────┘
+                                      │
+                                      ▼
+                         DATA → DECISIONS → MONEY
 ```
 
 ---
 
-# `02` — BOSS FIGHTS DEFEATED
+## `02` — BOSS FIGHTS DEFEATED
 
 > [!WARNING]
 > ### 🏦 BOSS: CHAOTIC FINANCIAL DATA
 > **Raw data is messy. Decisions shouldn't be.**
 
-Built an end-to-end financial data platform transforming raw transaction, account, and merchant data into an analytics-ready dimensional warehouse.
+An end-to-end financial data platform — raw transactions, accounts, and merchants flowing into an analytics-ready dimensional warehouse, with a mini data lake as the landing zone.
 
 ```text
-RAW DATA → INGESTION → AIRFLOW → POSTGRES → DBT TRANSFORMATIONS
-                                                       ├── dim_accounts
-                                                       ├── dim_merchants
-                                                       ├── dim_date
-                                                       └── fact_transactions
-                                                       ↓
-                                               48 AUTOMATED TESTS → ANALYTICS → STREAMLIT
+SOURCE SYSTEMS
+      │
+      ▼
+┌─────────────────┐
+│  MINI DATA LAKE │  ← raw immutable landing zone
+│  (Parquet files)│     partitioned by date / source
+└────────┬────────┘
+         │
+         ▼
+   ┌──────────┐
+   │ AIRFLOW  │  ← orchestration + retries + backfills
+   └────┬─────┘
+        │
+        ▼
+   ┌──────────┐
+   │ POSTGRES │  ← warehouse
+   └────┬─────┘
+        │
+        ▼
+   ┌──────────┐
+   │   DBT    │  ← dim_accounts · dim_merchants · dim_date · fact_transactions
+   └────┬─────┘
+        │
+        ▼
+   48 TESTS → ANALYTICS → STREAMLIT
 ```
 
-**What I cared about:** dimensional modeling · ELT architecture · data quality · orchestration · reproducibility · automated validation · analytical workloads  
-`Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Streamlit`
+**What I cared about:** dimensional modeling · ELT architecture · data quality · orchestration · reproducibility · automated validation · **lake + warehouse split**
+
+`Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Streamlit` `Parquet`
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)**
 
@@ -120,7 +138,8 @@ CLIENT → API REQUEST → IDEMPOTENCY CHECK → TRANSACTION STATE → DOUBLE-EN
                                                             RECONCILIATION → FAILURE RECOVERY
 ```
 
-**Built around:** `✓` Double-entry accounting · `✓` Idempotent operations · `✓` Transaction state machines · `✓` Concurrency safeguards · `✓` Immutable financial records · `✓` Reconciliation · `✓` Failure recovery  
+**Built around:** `✓` Double-entry accounting · `✓` Idempotent operations · `✓` Transaction state machines · `✓` Concurrency safeguards · `✓` Immutable financial records · `✓` Reconciliation · `✓` Failure recovery
+
 `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)**
@@ -128,17 +147,28 @@ CLIENT → API REQUEST → IDEMPOTENCY CHECK → TRANSACTION STATE → DOUBLE-EN
 ---
 
 > [!IMPORTANT]
-> ### ⚡ BOSS: MAKE THE DECISION BEFORE THE FRAUDSTER DOES
+> ### ⚡ BOSS: DECIDE BEFORE THE FRAUDSTER DOES
 > **A streaming ML system where the model doesn't get the luxury of waiting for tomorrow's batch job.**
 
 ```text
-TRANSACTION → EVENT STREAM → FEATURE STATE → RISK MODEL → RISK SCORE
-                                                             ├── ALLOW
-                                                             └── BLOCK
+TRANSACTION EVENTS
+        │
+        ▼
+   ┌──────────┐        ┌──────────┐        ┌──────────┐        ┌──────────┐
+   │  KAFKA   │───────▶│  FLINK   │───────▶│  REDIS   │───────▶│  MODEL   │
+   │  topic   │        │  jobs    │        │  state   │        │  serve   │
+   └──────────┘        └────┬─────┘        └──────────┘        └────┬─────┘
+                            │                                       │
+                            ▼                                       ▼
+                     windowed aggs                          risk score
+                     event-time                             ├── ALLOW
+                     watermarking                           └── BLOCK
+                     exactly-once
 ```
 
-**Explores:** streaming inference · online feature computation · feature state · model serving · risk decisions · model monitoring · production ML failure modes  
-`Python` `Kafka` `Redis` `ML` `Docker`
+**Explores:** streaming inference · online feature computation · feature state · event-time processing · watermarks · model serving · risk decisions · production ML failure modes
+
+`Python` `Flink` `Kafka` `Redis` `Docker`
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)**
 
@@ -152,17 +182,57 @@ A from-scratch market microstructure system implementing a price-time-priority o
 
 **Current implementation:** price-time priority · heap-based price levels · hashmap-of-deques · lazy deletion · O(1) cancel path · FastAPI order-entry layer · Poisson order-flow generator · tick persistence · controlled-speed replay · backtesting engine · reference strategies · Sharpe ratio · max drawdown · win rate · slippage analysis · **67 tests passing**
 
-**Performance:** `~185,000 orders/sec` (single-threaded)  
+**Performance:** `~185,000 orders/sec` (single-threaded)
+
 `Python` `FastAPI` `C++ / Rust hot-path exploration` `Algorithms` `Market Microstructure`
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)**
 
 ---
 
-# `03` — CURRENT MISSION
+> [!TIP]
+> ### 🌊 BOSS: THE MINI LAKE
+> **Storage is a system, not a folder.**
 
-## 🔄 REAL-TIME COLLABORATIVE TEXT EDITOR
-### `STATUS: [██████████████████░░] 80%`
+A small lakehouse built to understand the storage layer underneath everything else — not to hide it behind a managed service.
+
+```text
+STREAMS / BATCH SOURCES
+          │
+          ▼
+   ┌─────────────┐
+   │  INGESTION  │  ← schema-on-write, not schema-on-read panic
+   └──────┬──────┘
+          │
+          ▼
+   ┌─────────────┐
+   │  RAW LAYER  │  ← append-only · immutable · partitioned
+   │  (Parquet)  │     by date / source / hour
+   └──────┬──────┘
+          │
+          ▼
+   ┌─────────────┐
+   │  CURATED    │  ← cleaned · deduped · typed
+   └──────┬──────┘
+          │
+          ▼
+   ┌─────────────┐
+   │  SERVING    │  ← queryable · compacted · small files merged
+   └─────────────┘
+```
+
+**Exploring:** file formats (Parquet / ORC) · partitioning strategy · compaction · small-file problem · schema evolution · metadata catalogs · **when a lake beats a warehouse (and when it doesn't)**
+
+`Python` `Parquet` `S3 / MinIO` `DuckDB` `Polars`
+
+**[→ WATCH THE BUILD](https://github.com/Aryan-sagar)**
+
+---
+
+## `03` — CURRENT MISSION
+
+### 🔄 REAL-TIME COLLABORATIVE TEXT EDITOR
+`STATUS: [██████████████████░░] 80%`
 
 Building a Google-Docs-style collaborative editor **without hiding the hard part behind Yjs or another CRDT library.** The core distributed state mechanism is built from scratch.
 
@@ -173,10 +243,10 @@ USER A → LOCAL RGA → WEBSOCKET → FASTAPI RELAY → USER B (LOCAL RGA)
                                           CONVERGENCE
 ```
 
-**Already defeated:**  
+**Already defeated:**
 `✓` Custom RGA sequence CRDT · `✓` Deterministic concurrent insertion · `✓` Tombstone deletion · `✓` Out-of-order delivery buffering · `✓` 2,500+ randomized convergence trials · `✓` Exhaustive permutation testing · `✓` Materialized late-joiner snapshots · `✓` Presence broadcasts · `✓` WebSocket relay · `✓` 13/13 integration tests
 
-**Next boss:**  
+**Next boss:**
 `[ ]` Browser frontend · `[ ]` Offline editing · `[ ]` Reconnect + merge · `[ ]` Undo / redo
 
 `Python` `FastAPI` `WebSockets` `CRDTs` `Distributed State`
@@ -185,7 +255,7 @@ USER A → LOCAL RGA → WEBSOCKET → FASTAPI RELAY → USER B (LOCAL RGA)
 
 ---
 
-# `04` — SIDE QUESTS
+## `04` — SIDE QUESTS
 
 Not everything I build belongs to the main lab.
 
@@ -195,11 +265,12 @@ An experimental AutoML system exploring the search space **around** the model.
 ```text
 DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARCH → WINNER
 ```
+
 `Scikit-learn` `Optuna` `Genetic Algorithms` `Python`
 
 ---
 
-# `05` — SKILL TREE
+## `05` — SKILL TREE
 
 ```text
 SYSTEMS
@@ -216,7 +287,10 @@ DATA
 ├── dbt                       ████████░░
 ├── Airflow                   ████████░░
 ├── Kafka                     ████████░░
-└── Redis                     ████████░░
+├── Redis                     ████████░░
+├── Flink                     ███████░░░
+├── Parquet / Lake            ███████░░░
+└── DuckDB / Polars           ██████░░░░
 
 ML
 ├── PyTorch                   ████████░░
@@ -234,22 +308,23 @@ ENGINEERING
 ├── Docker                    ████████░░
 └── Testing                   █████████░
 ```
+
 *Bars represent current working depth, not a claim of mastery.*
 
 ---
 
-# `06` — TECH ARSENAL
+## `06` — TECH ARSENAL
 
 - **Languages:** `C` `C++` `Python` `Java` `SQL`
-- **Data:** `PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Redis`
+- **Data:** `PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Flink` `Redis` `Parquet` `DuckDB` `Polars`
 - **ML:** `PyTorch` `TensorFlow` `Scikit-learn` `Pandas` `NumPy` `MLflow` `Optuna`
 - **Backend:** `FastAPI` `SQLAlchemy` `REST` `WebSockets`
-- **Infrastructure:** `Docker` `AWS` `Git` `GitHub`
-- **Systems:** `CRDTs` `Distributed Systems` `Raft` `Concurrency` `Algorithms` `Performance Engineering`
+- **Infrastructure:** `Docker` `AWS` `MinIO` `Git` `GitHub`
+- **Systems:** `CRDTs` `Distributed Systems` `Raft` `Concurrency` `Algorithms` `Performance Engineering` `Stream Processing`
 
 ---
 
-# `07` — THE RULES
+## `07` — THE RULES
 
 I optimize for a few things.
 
@@ -274,7 +349,7 @@ I optimize for a few things.
 
 ---
 
-# `08` — CURRENTLY LEARNING
+## `08` — CURRENTLY LEARNING
 
 ```text
                 ┌─────────────────┐
@@ -284,17 +359,18 @@ I optimize for a few things.
         ┌────────────────┼────────────────┐
         ▼                ▼                ▼
    DISTRIBUTED       ML SYSTEMS       STORAGE
-    SYSTEMS                              
+    SYSTEMS
         │                │                │
    • Consensus      • Transformers   • WAL / LSM
    • Replication    • Serving        • Compaction
    • Fault Tol.     • Evaluation     • Indexing
    • Failure Rec.   • Monitoring     • Recovery
+   • Exactly-once   • Feature store  • Lakehouse
 ```
 
 ---
 
-# `09` — THE NUMBERS
+## `09` — THE NUMBERS
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=radical&include_all_commits=true" height="170" alt="Stats"/>
@@ -304,7 +380,7 @@ I optimize for a few things.
 
 ---
 
-# `10` — ACHIEVEMENT LOG
+## `10` — ACHIEVEMENT LOG
 
 ```text
 ╔══════════════════════════════════════════════════════╗
@@ -326,6 +402,9 @@ I optimize for a few things.
 ║  🧠 DISTRIBUTED THINKER                              ║
 ║  Built an RGA CRDT from scratch                      ║
 ║                                                      ║
+║  🌊 LAKE DIVER                                       ║
+║  Built a mini lakehouse + Flink streaming layer      ║
+║                                                      ║
 ║  🧪 EXPERIMENTALIST                                  ║
 ║  Built an AutoML search framework                    ║
 ║                                                      ║
@@ -334,18 +413,18 @@ I optimize for a few things.
 
 ---
 
-# `11` — OUTSIDE THE TERMINAL
+## `11` — OUTSIDE THE TERMINAL
 
 When I'm not thinking about distributed state, race conditions, or financial ledgers:
 
 🎬 Filmmaking · 📷 Photography · 🎞️ Cinematography · 🎸 Guitar · 📚 Psychology, philosophy & history
 
-> *Because engineering and filmmaking share one annoying truth:*  
+> *Because engineering and filmmaking share one annoying truth:*
 > **The details matter.**
 
 ---
 
-# `12` — CONNECT
+## `12` — CONNECT
 
 <p align="center">
 
