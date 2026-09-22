@@ -71,7 +71,7 @@ SYSTEM READY.
 
 ## `02` — BOSS FIGHTS DEFEATED
 
-*(click a boss to expand — this actually works on GitHub)*
+*(click a boss to expand )*
 
 <details>
 <summary><b>🏦 BOSS: CHAOTIC FINANCIAL DATA</b> — raw data is messy, decisions shouldn't be</summary>
