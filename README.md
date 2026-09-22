@@ -1,26 +1,15 @@
-# ⚡ ARYAN SAGAR
+<div align="center">
 
-### `SYSTEMS ENGINEER // ML ENGINEER // DATA BUILDER`
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:070a09,100:0c1210&height=160&section=header&text=ARYAN%20SAGAR&fontSize=42&fontColor=5eead4&fontAlignY=42&desc=Systems%20Engineer%20%2F%2F%20ML%20Engineer%20%2F%2F%20Data%20Builder&descAlignY=62&descSize=16&descColor=7fa89c&animation=fadeIn)
 
-> **I build systems where data, money, and decisions meet.**
->
-> Not demos. Not `.fit()` and call it a day.
-> **Systems that remain correct when everything around them goes wrong.**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=FFB454&center=true&vCenter=true&width=600&lines=I+build+systems+where+data%2C+money%2C+and+decisions+meet.;Not+demos.+Not+.fit()+and+call+it+a+day.;Systems+that+stay+correct+when+everything+breaks.)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://www.iitrpr.ac.in/">
-    <img src="https://img.shields.io/badge/IIT%20Ropar-Graduate-8B0000?style=for-the-badge&logo=academia&logoColor=white" alt="IIT Ropar">
-  </a>
-  <a href="https://github.com/Aryan-sagar">
-    <img src="https://img.shields.io/badge/Focus-Systems-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Systems">
-  </a>
-  <a href="https://github.com/Aryan-sagar">
-    <img src="https://img.shields.io/badge/Focus-Machine%20Learning-2563eb?style=for-the-badge&logo=python&logoColor=white" alt="ML">
-  </a>
-  <a href="https://github.com/Aryan-sagar">
-    <img src="https://img.shields.io/badge/Focus-Data%20Engineering-059669?style=for-the-badge&logo=apache&logoColor=white" alt="Data">
-  </a>
-</p>
+<a href="https://www.iitrpr.ac.in/"><img src="https://img.shields.io/badge/IIT%20Ropar-Graduate-8B0000?style=for-the-badge&logo=academia&logoColor=white" alt="IIT Ropar"></a>
+<a href="https://github.com/Aryan-sagar"><img src="https://img.shields.io/badge/Focus-Systems-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Systems"></a>
+<a href="https://github.com/Aryan-sagar"><img src="https://img.shields.io/badge/Focus-Machine%20Learning-2563eb?style=for-the-badge&logo=python&logoColor=white" alt="ML"></a>
+<a href="https://github.com/Aryan-sagar"><img src="https://img.shields.io/badge/Focus-Data%20Engineering-059669?style=for-the-badge&logo=apache&logoColor=white" alt="Data"></a>
+
+</div>
 
 ---
 
@@ -82,9 +71,12 @@ SYSTEM READY.
 
 ## `02` — BOSS FIGHTS DEFEATED
 
-> [!WARNING]
-> ### 🏦 BOSS: CHAOTIC FINANCIAL DATA
-> **Raw data is messy. Decisions shouldn't be.**
+*(click a boss to expand — this actually works on GitHub)*
+
+<details>
+<summary><b>🏦 BOSS: CHAOTIC FINANCIAL DATA</b> — raw data is messy, decisions shouldn't be</summary>
+
+<br>
 
 An end-to-end financial data platform — raw transactions, accounts, and merchants flowing into an analytics-ready dimensional warehouse, with a mini data lake as the landing zone.
 
@@ -122,11 +114,12 @@ SOURCE SYSTEMS
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)**
 
----
+</details>
 
-> [!DANGER]
-> ### 💳 BOSS: MONEY + RETRIES + CONCURRENCY
-> **Money movement cannot depend on "probably".**
+<details>
+<summary><b>💳 BOSS: MONEY + RETRIES + CONCURRENCY</b> — money movement cannot depend on "probably"</summary>
+
+<br>
 
 A backend designed around financial correctness rather than simply returning `200 OK`.
 
@@ -144,11 +137,12 @@ CLIENT → API REQUEST → IDEMPOTENCY CHECK → TRANSACTION STATE → DOUBLE-EN
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)**
 
----
+</details>
 
-> [!IMPORTANT]
-> ### ⚡ BOSS: DECIDE BEFORE THE FRAUDSTER DOES
-> **A streaming ML system where the model doesn't get the luxury of waiting for tomorrow's batch job.**
+<details>
+<summary><b>⚡ BOSS: DECIDE BEFORE THE FRAUDSTER DOES</b> — a streaming ML system that doesn't wait for tomorrow's batch job</summary>
+
+<br>
 
 ```text
 TRANSACTION EVENTS
@@ -162,7 +156,7 @@ TRANSACTION EVENTS
                             ▼                                       ▼
                      windowed aggs                          risk score
                      event-time                             ├── ALLOW
-                     watermarking                           └── BLOCK
+                     watermarking                            └── BLOCK
                      exactly-once
 ```
 
@@ -172,11 +166,12 @@ TRANSACTION EVENTS
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)**
 
----
+</details>
 
-> [!NOTE]
-> ### 📈 BOSS: THE MARKET
-> **Markets don't wait for your algorithm.**
+<details>
+<summary><b>📈 BOSS: THE MARKET</b> — markets don't wait for your algorithm</summary>
+
+<br>
 
 A from-scratch market microstructure system implementing a price-time-priority order book and research backtesting infrastructure.
 
@@ -188,11 +183,12 @@ A from-scratch market microstructure system implementing a price-time-priority o
 
 **[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)**
 
----
+</details>
 
-> [!TIP]
-> ### 🌊 BOSS: THE MINI LAKE
-> **Storage is a system, not a folder.**
+<details>
+<summary><b>🌊 BOSS: THE MINI LAKE</b> — storage is a system, not a folder</summary>
+
+<br>
 
 A small lakehouse built to understand the storage layer underneath everything else — not to hide it behind a managed service.
 
@@ -227,6 +223,8 @@ STREAMS / BATCH SOURCES
 
 **[→ WATCH THE BUILD](https://github.com/Aryan-sagar)**
 
+</details>
+
 ---
 
 ## `03` — CURRENT MISSION
@@ -257,16 +255,18 @@ USER A → LOCAL RGA → WEBSOCKET → FASTAPI RELAY → USER B (LOCAL RGA)
 
 ## `04` — SIDE QUESTS
 
-Not everything I build belongs to the main lab.
+<details>
+<summary><b>🧬 AutoML Framework</b> — exploring the search space around the model</summary>
 
-### 🧬 AutoML Framework
-An experimental AutoML system exploring the search space **around** the model.
+<br>
 
 ```text
 DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARCH → WINNER
 ```
 
 `Scikit-learn` `Optuna` `Genetic Algorithms` `Python`
+
+</details>
 
 ---
 
@@ -295,7 +295,7 @@ DATA
 ML
 ├── PyTorch                   ████████░░
 ├── TensorFlow                ███████░░░
-├── Scikit-learn              █████████░
+├── Scikit-learn               █████████░
 ├── ML Systems                ███████░░░
 ├── Transformers              ██████░░░░
 └── Production ML             ███████░░░
@@ -378,6 +378,10 @@ I optimize for a few things.
   <img src="https://streak-stats.demolab.com?user=Aryan-sagar&theme=radical&hide_border=true" height="170" alt="Streak"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aryan-sagar&theme=react-dark&hide_border=true&bg_color=070a09&color=5eead4&line=5eead4&point=ffb454" alt="Activity graph"/>
+</p>
+
 ---
 
 ## `10` — ACHIEVEMENT LOG
@@ -426,17 +430,17 @@ When I'm not thinking about distributed state, race conditions, or financial led
 
 ## `12` — CONNECT
 
-<p align="center">
+<div align="center">
 
 ### Want to talk systems, ML, data, markets, or just build something ridiculous?
 
 **[LinkedIn](http://www.linkedin.com/in/aryan-sagar-755947254)** · **[GitHub](https://github.com/Aryan-sagar)** · **[Email](mailto:aryansagar.workspace@gmail.com)**
 
-</p>
+</div>
 
 ---
 
-<p align="center">
+<div align="center">
 
 ```text
 BUILD → BREAK → MEASURE → UNDERSTAND → REBUILD
@@ -448,4 +452,6 @@ BUILD → BREAK → MEASURE → UNDERSTAND → REBUILD
 
 ### `SYSTEM STATUS: BUILDING`
 
-</p>
+</div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0c1210,100:070a09&height=100&section=footer)
