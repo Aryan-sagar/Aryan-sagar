@@ -44,28 +44,9 @@ SYSTEM READY.
 
 ## `01` — THE MAP
 
-```text
-                         ┌─────────────────────────┐
-                         │     ARYAN'S LAB         │
-                         │   (a working system)    │
-                         └────────────┬────────────┘
-                                      │
-        ┌──────────────┬──────────────┼──────────────┬──────────────┐
-        │              │              │              │              │
-        ▼              ▼              ▼              ▼              ▼
-   DATA LAKE      STREAMING       MONEY         DECISION        MARKET
-   (storage)      (compute)      (ledger)       (real-time)     (microstructure)
-        │              │              │              │              │
-        ▼              ▼              ▼              ▼              ▼
-   Transaction    Flink Jobs      Payments      Risk Scoring    Limit Order
-   DW + ELT       + Kafka         Ledger        Engine          Book Engine
-   Pipeline       + Redis         + Recon.      + Streaming     + Backtester
-        │              │              │              │              │
-        └──────────────┴──────────────┼──────────────┴──────────────┘
-                                      │
-                                      ▼
-                         DATA → DECISIONS → MONEY
-```
+<p align="center">
+  <img src="map.svg" alt="The map" width="100%"/>
+</p>
 
 ---
 
@@ -282,12 +263,9 @@ DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARC
 
 ## `06` — TECH ARSENAL
 
-- **Languages:** `C` `C++` `Python` `Java` `SQL`
-- **Data:** `PostgreSQL` `MySQL` `dbt` `Airflow` `Kafka` `Flink` `Redis` `Parquet` `DuckDB` `Polars`
-- **ML:** `PyTorch` `TensorFlow` `Scikit-learn` `Pandas` `NumPy` `MLflow` `Optuna`
-- **Backend:** `FastAPI` `SQLAlchemy` `REST` `WebSockets`
-- **Infrastructure:** `Docker` `AWS` `MinIO` `Git` `GitHub`
-- **Systems:** `CRDTs` `Distributed Systems` `Raft` `Concurrency` `Algorithms` `Performance Engineering` `Stream Processing`
+<p align="center">
+  <img src="tech-arsenal.svg" alt="Tech arsenal" width="100%"/>
+</p>
 
 ---
 
@@ -353,34 +331,9 @@ I optimize for a few things.
 
 ## `10` — ACHIEVEMENT LOG
 
-```text
-╔══════════════════════════════════════════════════════╗
-║                  ACHIEVEMENTS                        ║
-╠══════════════════════════════════════════════════════╣
-║                                                      ║
-║  🏦 DATA ARCHITECT                                   ║
-║  Built an end-to-end financial warehouse             ║
-║                                                      ║
-║  💳 LEDGER KEEPER                                    ║
-║  Built an idempotent double-entry payment system     ║
-║                                                      ║
-║  ⚡ REAL-TIME HUNTER                                 ║
-║  Built a streaming fraud decision engine             ║
-║                                                      ║
-║  📈 MARKET MAKER                                     ║
-║  Built a limit-order matching engine                 ║
-║                                                      ║
-║  🧠 DISTRIBUTED THINKER                              ║
-║  Built an RGA CRDT from scratch                      ║
-║                                                      ║
-║  🌊 LAKE DIVER                                       ║
-║  Built a mini lakehouse + Flink streaming layer      ║
-║                                                      ║
-║  🧪 EXPERIMENTALIST                                  ║
-║  Built an AutoML search framework                    ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="achievements.svg" alt="Achievement log" width="100%"/>
+</p>
 
 ---
 
