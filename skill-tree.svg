@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 566" width="920" height="566" role="img" aria-label="Skill tree" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmZWRlM2M1NC05ODg4LTQ4YjAtYjljMy1mYTdiMjQ1N2EwZGYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaNAFN7pADqZ/FFGgrXNiDxcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozYTg0ZTU3Yy05MDY1LTRlMDEtYjY1Yi04ODAyNjU2ODdmNzRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo9AiYn5JmMd8HUFMuCdFYogAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg1dG7sKeMFYkwEBXteqH8PzQABCChwt2jG27Z9gPRtI+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLEWSheIco64/43imsIcKKoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDFhmBamvoMhvP3f8FWw+IId8MeqeCZ5+0prEjQyN+DimRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZlZGUzYzU0LTk4ODgtNDhiMC1iOWMzLWZhN2IyNDU3YTBkZi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmUzODA1ZDBjLTkyOTItNDRmMS04YmI0LTAxMzVmZmQzZDIyZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDV0buwp4wViTAQFe16ofw/NAAEIKHC3aMbbtn2A9G0j6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggq2DwlwPxIfONrcu2fAyXmAccSakl/eQjSSCXhCVwUVaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggGhEDYaWgvzSO6R/V3eoEX8Wm5OYlrd5wRqOd3yJC2Op0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNtQMNlvcDlr/h5mf7Yh10bw0FJc7AWS2n6clsJSPf3DEAiotCYaz7gtDEYAvXWAm5d90uIcE+nDDf1fmuhNnpk=</c2pa:manifest></metadata>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.lbl{fill:#d5e6df;font-size:13px}
+.val{fill:#7fa89c;font-size:12px}
+.hd{fill:#5eead4;font-size:14px;font-weight:700;letter-spacing:2px}
+.no{fill:#ffb454;font-size:12px}
+.seg{transform-box:fill-box;transform-origin:center bottom;animation:pop .5s ease-out both}
+@keyframes pop{from{opacity:0;transform:scaleY(.1)}to{opacity:1;transform:scaleY(1)}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.seg,.pulse{animation:none}}
+</style>
+<rect width="920" height="566" rx="12" fill="#070a09"/>
+<g transform="translate(20,20)">
+<rect width="430" height="216" rx="10" fill="#0c1210" stroke="#1d2b26"/>
+<circle class="pulse" cx="22" cy="24" r="4" fill="#ffb454"/>
+<text class="hd" x="36" y="29">SYSTEMS</text>
+<text class="no" x="398" y="29" text-anchor="end">/01</text>
+<line x1="16" y1="40" x2="414" y2="40" stroke="#1d2b26"/>
+<text class="lbl" x="20" y="62">Distributed Systems</text>
+<rect class="seg" x="196" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.15s"/>
+<rect class="seg" x="213" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.2s"/>
+<rect class="seg" x="230" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.25s"/>
+<rect class="seg" x="247" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.3s"/>
+<rect class="seg" x="264" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.35s"/>
+<rect class="seg" x="281" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.4s"/>
+<rect class="seg" x="298" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.45s"/>
+<rect class="seg" x="315" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.5s"/>
+<rect class="seg" x="332" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.55s"/>
+<rect x="349" y="51" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="62">9/10</text>
+<text class="lbl" x="20" y="88">Concurrency</text>
+<rect class="seg" x="196" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.22s"/>
+<rect class="seg" x="213" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.27s"/>
+<rect class="seg" x="230" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.32s"/>
+<rect class="seg" x="247" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.37s"/>
+<rect class="seg" x="264" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.42s"/>
+<rect class="seg" x="281" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.47s"/>
+<rect class="seg" x="298" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.52s"/>
+<rect class="seg" x="315" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.57s"/>
+<rect x="332" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="88">8/10</text>
+<text class="lbl" x="20" y="114">Networking</text>
+<rect class="seg" x="196" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.29s"/>
+<rect class="seg" x="213" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.34s"/>
+<rect class="seg" x="230" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.39s"/>
+<rect class="seg" x="247" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.44s"/>
+<rect class="seg" x="264" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.49s"/>
+<rect class="seg" x="281" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.54s"/>
+<rect class="seg" x="298" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.59s"/>
+<rect x="315" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="114">7/10</text>
+<text class="lbl" x="20" y="140">Storage</text>
+<rect class="seg" x="196" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.36s"/>
+<rect class="seg" x="213" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.41s"/>
+<rect class="seg" x="230" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.46s"/>
+<rect class="seg" x="247" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.51s"/>
+<rect class="seg" x="264" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.56s"/>
+<rect class="seg" x="281" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.61s"/>
+<rect class="seg" x="298" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.66s"/>
+<rect x="315" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="140">7/10</text>
+<text class="lbl" x="20" y="166">Consensus / Raft</text>
+<rect class="seg" x="196" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.43s"/>
+<rect class="seg" x="213" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.48s"/>
+<rect class="seg" x="230" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.53s"/>
+<rect class="seg" x="247" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.58s"/>
+<rect class="seg" x="264" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.63s"/>
+<rect class="seg" x="281" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.68s"/>
+<rect x="298" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="315" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="166">6/10</text>
+<text class="lbl" x="20" y="192">Performance Eng.</text>
+<rect class="seg" x="196" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.5s"/>
+<rect class="seg" x="213" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.55s"/>
+<rect class="seg" x="230" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.6s"/>
+<rect class="seg" x="247" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.65s"/>
+<rect class="seg" x="264" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.7s"/>
+<rect class="seg" x="281" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.75s"/>
+<rect class="seg" x="298" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.8s"/>
+<rect class="seg" x="315" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.85s"/>
+<rect x="332" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="192">8/10</text>
+</g>
+<g transform="translate(20,252)">
+<rect width="430" height="294" rx="10" fill="#0c1210" stroke="#1d2b26"/>
+<circle class="pulse" cx="22" cy="24" r="4" fill="#ffb454"/>
+<text class="hd" x="36" y="29">DATA</text>
+<text class="no" x="398" y="29" text-anchor="end">/02</text>
+<line x1="16" y1="40" x2="414" y2="40" stroke="#1d2b26"/>
+<text class="lbl" x="20" y="62">PostgreSQL</text>
+<rect class="seg" x="196" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.15s"/>
+<rect class="seg" x="213" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.2s"/>
+<rect class="seg" x="230" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.25s"/>
+<rect class="seg" x="247" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.3s"/>
+<rect class="seg" x="264" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.35s"/>
+<rect class="seg" x="281" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.4s"/>
+<rect class="seg" x="298" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.45s"/>
+<rect class="seg" x="315" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.5s"/>
+<rect class="seg" x="332" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.55s"/>
+<rect x="349" y="51" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="62">9/10</text>
+<text class="lbl" x="20" y="88">SQL</text>
+<rect class="seg" x="196" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.22s"/>
+<rect class="seg" x="213" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.27s"/>
+<rect class="seg" x="230" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.32s"/>
+<rect class="seg" x="247" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.37s"/>
+<rect class="seg" x="264" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.42s"/>
+<rect class="seg" x="281" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.47s"/>
+<rect class="seg" x="298" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.52s"/>
+<rect class="seg" x="315" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.57s"/>
+<rect class="seg" x="332" y="77" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.62s"/>
+<rect x="349" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="88">9/10</text>
+<text class="lbl" x="20" y="114">dbt</text>
+<rect class="seg" x="196" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.29s"/>
+<rect class="seg" x="213" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.34s"/>
+<rect class="seg" x="230" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.39s"/>
+<rect class="seg" x="247" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.44s"/>
+<rect class="seg" x="264" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.49s"/>
+<rect class="seg" x="281" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.54s"/>
+<rect class="seg" x="298" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.59s"/>
+<rect class="seg" x="315" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.64s"/>
+<rect x="332" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="114">8/10</text>
+<text class="lbl" x="20" y="140">Airflow</text>
+<rect class="seg" x="196" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.36s"/>
+<rect class="seg" x="213" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.41s"/>
+<rect class="seg" x="230" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.46s"/>
+<rect class="seg" x="247" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.51s"/>
+<rect class="seg" x="264" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.56s"/>
+<rect class="seg" x="281" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.61s"/>
+<rect class="seg" x="298" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.66s"/>
+<rect class="seg" x="315" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.71s"/>
+<rect x="332" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="140">8/10</text>
+<text class="lbl" x="20" y="166">Kafka</text>
+<rect class="seg" x="196" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.43s"/>
+<rect class="seg" x="213" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.48s"/>
+<rect class="seg" x="230" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.53s"/>
+<rect class="seg" x="247" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.58s"/>
+<rect class="seg" x="264" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.63s"/>
+<rect class="seg" x="281" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.68s"/>
+<rect class="seg" x="298" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.73s"/>
+<rect class="seg" x="315" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.78s"/>
+<rect x="332" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="166">8/10</text>
+<text class="lbl" x="20" y="192">Redis</text>
+<rect class="seg" x="196" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.5s"/>
+<rect class="seg" x="213" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.55s"/>
+<rect class="seg" x="230" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.6s"/>
+<rect class="seg" x="247" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.65s"/>
+<rect class="seg" x="264" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.7s"/>
+<rect class="seg" x="281" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.75s"/>
+<rect class="seg" x="298" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.8s"/>
+<rect class="seg" x="315" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.85s"/>
+<rect x="332" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="192">8/10</text>
+<text class="lbl" x="20" y="218">Flink</text>
+<rect class="seg" x="196" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.57s"/>
+<rect class="seg" x="213" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.62s"/>
+<rect class="seg" x="230" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.67s"/>
+<rect class="seg" x="247" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.72s"/>
+<rect class="seg" x="264" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.77s"/>
+<rect class="seg" x="281" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.82s"/>
+<rect class="seg" x="298" y="207" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.87s"/>
+<rect x="315" y="207" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="207" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="207" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="218">7/10</text>
+<text class="lbl" x="20" y="244">Parquet / Lake</text>
+<rect class="seg" x="196" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.64s"/>
+<rect class="seg" x="213" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.69s"/>
+<rect class="seg" x="230" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.74s"/>
+<rect class="seg" x="247" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.79s"/>
+<rect class="seg" x="264" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.84s"/>
+<rect class="seg" x="281" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.89s"/>
+<rect class="seg" x="298" y="233" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.94s"/>
+<rect x="315" y="233" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="233" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="233" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="244">7/10</text>
+<text class="lbl" x="20" y="270">DuckDB / Polars</text>
+<rect class="seg" x="196" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.71s"/>
+<rect class="seg" x="213" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.76s"/>
+<rect class="seg" x="230" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.81s"/>
+<rect class="seg" x="247" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.86s"/>
+<rect class="seg" x="264" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.91s"/>
+<rect class="seg" x="281" y="259" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.96s"/>
+<rect x="298" y="259" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="315" y="259" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="259" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="259" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="270">6/10</text>
+</g>
+<g transform="translate(470,20)">
+<rect width="430" height="216" rx="10" fill="#0c1210" stroke="#1d2b26"/>
+<circle class="pulse" cx="22" cy="24" r="4" fill="#ffb454"/>
+<text class="hd" x="36" y="29">ML</text>
+<text class="no" x="398" y="29" text-anchor="end">/03</text>
+<line x1="16" y1="40" x2="414" y2="40" stroke="#1d2b26"/>
+<text class="lbl" x="20" y="62">PyTorch</text>
+<rect class="seg" x="196" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.15s"/>
+<rect class="seg" x="213" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.2s"/>
+<rect class="seg" x="230" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.25s"/>
+<rect class="seg" x="247" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.3s"/>
+<rect class="seg" x="264" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.35s"/>
+<rect class="seg" x="281" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.4s"/>
+<rect class="seg" x="298" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.45s"/>
+<rect class="seg" x="315" y="51" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.5s"/>
+<rect x="332" y="51" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="51" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="62">8/10</text>
+<text class="lbl" x="20" y="88">TensorFlow</text>
+<rect class="seg" x="196" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.22s"/>
+<rect class="seg" x="213" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.27s"/>
+<rect class="seg" x="230" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.32s"/>
+<rect class="seg" x="247" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.37s"/>
+<rect class="seg" x="264" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.42s"/>
+<rect class="seg" x="281" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.47s"/>
+<rect class="seg" x="298" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.52s"/>
+<rect x="315" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="88">7/10</text>
+<text class="lbl" x="20" y="114">Scikit-learn</text>
+<rect class="seg" x="196" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.29s"/>
+<rect class="seg" x="213" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.34s"/>
+<rect class="seg" x="230" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.39s"/>
+<rect class="seg" x="247" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.44s"/>
+<rect class="seg" x="264" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.49s"/>
+<rect class="seg" x="281" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.54s"/>
+<rect class="seg" x="298" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.59s"/>
+<rect class="seg" x="315" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.64s"/>
+<rect class="seg" x="332" y="103" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.69s"/>
+<rect x="349" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="114">9/10</text>
+<text class="lbl" x="20" y="140">ML Systems</text>
+<rect class="seg" x="196" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.36s"/>
+<rect class="seg" x="213" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.41s"/>
+<rect class="seg" x="230" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.46s"/>
+<rect class="seg" x="247" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.51s"/>
+<rect class="seg" x="264" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.56s"/>
+<rect class="seg" x="281" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.61s"/>
+<rect class="seg" x="298" y="129" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.66s"/>
+<rect x="315" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="140">7/10</text>
+<text class="lbl" x="20" y="166">Transformers</text>
+<rect class="seg" x="196" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.43s"/>
+<rect class="seg" x="213" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.48s"/>
+<rect class="seg" x="230" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.53s"/>
+<rect class="seg" x="247" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.58s"/>
+<rect class="seg" x="264" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.63s"/>
+<rect class="seg" x="281" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.68s"/>
+<rect x="298" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="315" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="166">6/10</text>
+<text class="lbl" x="20" y="192">Production ML</text>
+<rect class="seg" x="196" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.5s"/>
+<rect class="seg" x="213" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.55s"/>
+<rect class="seg" x="230" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.6s"/>
+<rect class="seg" x="247" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.65s"/>
+<rect class="seg" x="264" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.7s"/>
+<rect class="seg" x="281" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.75s"/>
+<rect class="seg" x="298" y="181" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.8s"/>
+<rect x="315" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="192">7/10</text>
+</g>
+<g transform="translate(470,252)">
+<rect width="430" height="216" rx="10" fill="#0c1210" stroke="#1d2b26"/>
+<circle class="pulse" cx="22" cy="24" r="4" fill="#ffb454"/>
+<text class="hd" x="36" y="29">ENGINEERING</text>
+<text class="no" x="398" y="29" text-anchor="end">/04</text>
+<line x1="16" y1="40" x2="414" y2="40" stroke="#1d2b26"/>
+<text class="lbl" x="20" y="62">Python</text>
+<rect class="seg" x="196" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.15s"/>
+<rect class="seg" x="213" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.2s"/>
+<rect class="seg" x="230" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.25s"/>
+<rect class="seg" x="247" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.3s"/>
+<rect class="seg" x="264" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.35s"/>
+<rect class="seg" x="281" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.4s"/>
+<rect class="seg" x="298" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.45s"/>
+<rect class="seg" x="315" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.5s"/>
+<rect class="seg" x="332" y="51" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.55s"/>
+<rect x="349" y="51" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="62">9/10</text>
+<text class="lbl" x="20" y="88">C++</text>
+<rect class="seg" x="196" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.22s"/>
+<rect class="seg" x="213" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.27s"/>
+<rect class="seg" x="230" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.32s"/>
+<rect class="seg" x="247" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.37s"/>
+<rect class="seg" x="264" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.42s"/>
+<rect class="seg" x="281" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.47s"/>
+<rect class="seg" x="298" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.52s"/>
+<rect class="seg" x="315" y="77" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.57s"/>
+<rect x="332" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="77" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="88">8/10</text>
+<text class="lbl" x="20" y="114">Java</text>
+<rect class="seg" x="196" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.29s"/>
+<rect class="seg" x="213" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.34s"/>
+<rect class="seg" x="230" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.39s"/>
+<rect class="seg" x="247" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.44s"/>
+<rect class="seg" x="264" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.49s"/>
+<rect class="seg" x="281" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.54s"/>
+<rect class="seg" x="298" y="103" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.59s"/>
+<rect x="315" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="332" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="103" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="114">7/10</text>
+<text class="lbl" x="20" y="140">FastAPI</text>
+<rect class="seg" x="196" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.36s"/>
+<rect class="seg" x="213" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.41s"/>
+<rect class="seg" x="230" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.46s"/>
+<rect class="seg" x="247" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.51s"/>
+<rect class="seg" x="264" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.56s"/>
+<rect class="seg" x="281" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.61s"/>
+<rect class="seg" x="298" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.66s"/>
+<rect class="seg" x="315" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.71s"/>
+<rect class="seg" x="332" y="129" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.76s"/>
+<rect x="349" y="129" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="140">9/10</text>
+<text class="lbl" x="20" y="166">Docker</text>
+<rect class="seg" x="196" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.43s"/>
+<rect class="seg" x="213" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.48s"/>
+<rect class="seg" x="230" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.53s"/>
+<rect class="seg" x="247" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.58s"/>
+<rect class="seg" x="264" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.63s"/>
+<rect class="seg" x="281" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.68s"/>
+<rect class="seg" x="298" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.73s"/>
+<rect class="seg" x="315" y="155" width="14" height="13" rx="2" fill="#5eead4" style="animation-delay:0.78s"/>
+<rect x="332" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<rect x="349" y="155" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="166">8/10</text>
+<text class="lbl" x="20" y="192">Testing</text>
+<rect class="seg" x="196" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.5s"/>
+<rect class="seg" x="213" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.55s"/>
+<rect class="seg" x="230" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.6s"/>
+<rect class="seg" x="247" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.65s"/>
+<rect class="seg" x="264" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.7s"/>
+<rect class="seg" x="281" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.75s"/>
+<rect class="seg" x="298" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.8s"/>
+<rect class="seg" x="315" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.85s"/>
+<rect class="seg" x="332" y="181" width="14" height="13" rx="2" fill="#ffb454" style="animation-delay:0.9s"/>
+<rect x="349" y="181" width="14" height="13" rx="2" fill="#16211d"/>
+<text class="val" x="392" y="192">9/10</text>
+</g>
+<g transform="translate(470,484)">
+<rect width="430" height="62" rx="10" fill="#0c1210" stroke="#1d2b26"/>
+<rect x="20" y="16" width="14" height="13" rx="2" fill="#ffb454"/><text class="val" x="42" y="27">9+  strongest, most battle-tested</text>
+<rect x="20" y="38" width="14" height="13" rx="2" fill="#5eead4"/><text class="val" x="42" y="49">≤8  solid working depth, still growing</text>
+</g>
+</svg>
