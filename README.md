@@ -52,202 +52,23 @@ SYSTEM READY.
 
 ## `02` — BOSS FIGHTS DEFEATED
 
-*(click a boss to expand )*
-
-<details>
-<summary><b>🏦 BOSS: CHAOTIC FINANCIAL DATA</b> — raw data is messy, decisions shouldn't be</summary>
-
-<br>
-
-An end-to-end financial data platform — raw transactions, accounts, and merchants flowing into an analytics-ready dimensional warehouse, with a mini data lake as the landing zone.
-
-```text
-SOURCE SYSTEMS
-      │
-      ▼
-┌─────────────────┐
-│  MINI DATA LAKE │  ← raw immutable landing zone
-│  (Parquet files)│     partitioned by date / source
-└────────┬────────┘
-         │
-         ▼
-   ┌──────────┐
-   │ AIRFLOW  │  ← orchestration + retries + backfills
-   └────┬─────┘
-        │
-        ▼
-   ┌──────────┐
-   │ POSTGRES │  ← warehouse
-   └────┬─────┘
-        │
-        ▼
-   ┌──────────┐
-   │   DBT    │  ← dim_accounts · dim_merchants · dim_date · fact_transactions
-   └────┬─────┘
-        │
-        ▼
-   48 TESTS → ANALYTICS → STREAMLIT
-```
-
-**What I cared about:** dimensional modeling · ELT architecture · data quality · orchestration · reproducibility · automated validation · **lake + warehouse split**
-
-`Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Streamlit` `Parquet`
-
-**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline)**
-
-</details>
-
-<details>
-<summary><b>💳 BOSS: MONEY + RETRIES + CONCURRENCY</b> — money movement cannot depend on "probably"</summary>
-
-<br>
-
-A backend designed around financial correctness rather than simply returning `200 OK`.
-
-```text
-CLIENT → API REQUEST → IDEMPOTENCY CHECK → TRANSACTION STATE → DOUBLE-ENTRY LEDGER
-                                                                     ├── ACCOUNT A
-                                                                     └── ACCOUNT B
-                                                                     ↓
-                                                            RECONCILIATION → FAILURE RECOVERY
-```
-
-**Built around:** `✓` Double-entry accounting · `✓` Idempotent operations · `✓` Transaction state machines · `✓` Concurrency safeguards · `✓` Immutable financial records · `✓` Reconciliation · `✓` Failure recovery
-
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
-
-**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend)**
-
-</details>
-
-<details>
-<summary><b>⚡ BOSS: DECIDE BEFORE THE FRAUDSTER DOES</b> — a streaming ML system that doesn't wait for tomorrow's batch job</summary>
-
-<br>
-
-```text
-TRANSACTION EVENTS
-        │
-        ▼
-   ┌──────────┐        ┌──────────┐        ┌──────────┐        ┌──────────┐
-   │  KAFKA   │───────▶│  FLINK   │───────▶│  REDIS   │───────▶│  MODEL   │
-   │  topic   │        │  jobs    │        │  state   │        │  serve   │
-   └──────────┘        └────┬─────┘        └──────────┘        └────┬─────┘
-                            │                                       │
-                            ▼                                       ▼
-                     windowed aggs                          risk score
-                     event-time                             ├── ALLOW
-                     watermarking                            └── BLOCK
-                     exactly-once
-```
-
-**Explores:** streaming inference · online feature computation · feature state · event-time processing · watermarks · model serving · risk decisions · production ML failure modes
-
-`Python` `Flink` `Kafka` `Redis` `Docker`
-
-**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine)**
-
-</details>
-
-<details>
-<summary><b>📈 BOSS: THE MARKET</b> — markets don't wait for your algorithm</summary>
-
-<br>
-
-A from-scratch market microstructure system implementing a price-time-priority order book and research backtesting infrastructure.
-
-**Current implementation:** price-time priority · heap-based price levels · hashmap-of-deques · lazy deletion · O(1) cancel path · FastAPI order-entry layer · Poisson order-flow generator · tick persistence · controlled-speed replay · backtesting engine · reference strategies · Sharpe ratio · max drawdown · win rate · slippage analysis · **67 tests passing**
-
-**Performance:** `~185,000 orders/sec` (single-threaded)
-
-`Python` `FastAPI` `C++ / Rust hot-path exploration` `Algorithms` `Market Microstructure`
-
-**[→ ENTER THE REPOSITORY](https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester)**
-
-</details>
-
-<details>
-<summary><b>🌊 BOSS: THE MINI LAKE</b> — storage is a system, not a folder</summary>
-
-<br>
-
-A small lakehouse built to understand the storage layer underneath everything else — not to hide it behind a managed service.
-
-```text
-STREAMS / BATCH SOURCES
-          │
-          ▼
-   ┌─────────────┐
-   │  INGESTION  │  ← schema-on-write, not schema-on-read panic
-   └──────┬──────┘
-          │
-          ▼
-   ┌─────────────┐
-   │  RAW LAYER  │  ← append-only · immutable · partitioned
-   │  (Parquet)  │     by date / source / hour
-   └──────┬──────┘
-          │
-          ▼
-   ┌─────────────┐
-   │  CURATED    │  ← cleaned · deduped · typed
-   └──────┬──────┘
-          │
-          ▼
-   ┌─────────────┐
-   │  SERVING    │  ← queryable · compacted · small files merged
-   └─────────────┘
-```
-
-**Exploring:** file formats (Parquet / ORC) · partitioning strategy · compaction · small-file problem · schema evolution · metadata catalogs · **when a lake beats a warehouse (and when it doesn't)**
-
-`Python` `Parquet` `S3 / MinIO` `DuckDB` `Polars`
-
-**[→ WATCH THE BUILD](https://github.com/Aryan-sagar)**
-
-</details>
+<a href="https://github.com/Aryan-sagar/Transaction-Data-Warehouse-ELT-Pipeline"><img src="boss-01.svg" alt="Boss 01: Chaotic Financial Data" width="100%"/></a>
+<a href="https://github.com/Aryan-sagar/Idempotent-Payments-Ledger-Reconciliation-Backend"><img src="boss-02.svg" alt="Boss 02: Money, Retries, Concurrency" width="100%"/></a>
+<a href="https://github.com/Aryan-sagar/-Real-Time-Risk-Fraud-Scoring-Engine"><img src="boss-03.svg" alt="Boss 03: Real-time fraud scoring" width="100%"/></a>
+<a href="https://github.com/Aryan-sagar/-Limit-Order-Book-Matching-Engine-Backtester"><img src="boss-04.svg" alt="Boss 04: The Market" width="100%"/></a>
+<a href="https://github.com/Aryan-sagar"><img src="boss-05.svg" alt="Boss 05: The Mini Lake" width="100%"/></a>
 
 ---
 
 ## `03` — CURRENT MISSION
 
-### 🔄 REAL-TIME COLLABORATIVE TEXT EDITOR
-`STATUS: [██████████████████░░] 80%`
-
-Building a Google-Docs-style collaborative editor **without hiding the hard part behind Yjs or another CRDT library.** The core distributed state mechanism is built from scratch.
-
-```text
-USER A → LOCAL RGA → WEBSOCKET → FASTAPI RELAY → USER B (LOCAL RGA)
-                                                → USER C (LOCAL RGA)
-                                                ↓
-                                          CONVERGENCE
-```
-
-**Already defeated:**
-`✓` Custom RGA sequence CRDT · `✓` Deterministic concurrent insertion · `✓` Tombstone deletion · `✓` Out-of-order delivery buffering · `✓` 2,500+ randomized convergence trials · `✓` Exhaustive permutation testing · `✓` Materialized late-joiner snapshots · `✓` Presence broadcasts · `✓` WebSocket relay · `✓` 13/13 integration tests
-
-**Next boss:**
-`[ ]` Browser frontend · `[ ]` Offline editing · `[ ]` Reconnect + merge · `[ ]` Undo / redo
-
-`Python` `FastAPI` `WebSockets` `CRDTs` `Distributed State`
-
-**[→ WATCH THE BUILD](https://github.com/Aryan-sagar)**
+<a href="https://github.com/Aryan-sagar"><img src="mission.svg" alt="Current mission: real-time collaborative text editor" width="100%"/></a>
 
 ---
 
 ## `04` — SIDE QUESTS
 
-<details>
-<summary><b>🧬 AutoML Framework</b> — exploring the search space around the model</summary>
-
-<br>
-
-```text
-DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARCH → WINNER
-```
-
-`Scikit-learn` `Optuna` `Genetic Algorithms` `Python`
-
-</details>
+<img src="side-quests.svg" alt="Side quests" width="100%"/>
 
 ---
 
