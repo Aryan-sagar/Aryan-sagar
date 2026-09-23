@@ -373,13 +373,13 @@ I optimize for a few things.
 ## `09` — THE NUMBERS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aryan-sagar&show_icons=true&hide_border=true&theme=radical&include_all_commits=true" height="170" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryan-sagar&layout=compact&hide_border=true&theme=radical" height="170" alt="Top Langs"/>
-  <img src="https://streak-stats.demolab.com?user=Aryan-sagar&theme=radical&hide_border=true" height="170" alt="Streak"/>
+  <img src="https://streak-stats.demolab.com?user=Aryan-sagar&hide_border=true&background=0c1210&ring=5eead4&fire=ffb454&currStreakNum=ffb454&currStreakLabel=5eead4&sideNums=5eead4&sideLabels=7fa89c&dates=7fa89c" height="170" alt="Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aryan-sagar&theme=react-dark&hide_border=true&bg_color=070a09&color=5eead4&line=5eead4&point=ffb454" alt="Activity graph"/>
+  <img src="https://img.shields.io/github/followers/Aryan-sagar?style=flat-square&labelColor=0c1210&color=5eead4" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/Aryan-sagar?style=flat-square&labelColor=0c1210&color=ffb454&affiliations=OWNER" alt="Stars"/>
+  <img src="https://img.shields.io/github/created-at/Aryan-sagar?style=flat-square&labelColor=0c1210&color=5eead4&label=on%20GitHub%20since" alt="Since"/>
 </p>
 
 ---
