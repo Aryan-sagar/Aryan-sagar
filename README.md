@@ -272,44 +272,11 @@ DATA → FEATURE ENGINEERING → [ GENETIC SEARCH + OPTUNA HPO ] → MODEL SEARC
 
 ## `05` — SKILL TREE
 
-```text
-SYSTEMS
-├── Distributed Systems       █████████░
-├── Concurrency               ████████░░
-├── Networking                ███████░░░
-├── Storage                   ███████░░░
-├── Consensus / Raft          ██████░░░░
-└── Performance Engineering   ████████░░
+<p align="center">
+  <img src="skill-tree.svg" alt="Skill tree" width="100%"/>
+</p>
 
-DATA
-├── PostgreSQL                █████████░
-├── SQL                       █████████░
-├── dbt                       ████████░░
-├── Airflow                   ████████░░
-├── Kafka                     ████████░░
-├── Redis                     ████████░░
-├── Flink                     ███████░░░
-├── Parquet / Lake            ███████░░░
-└── DuckDB / Polars           ██████░░░░
-
-ML
-├── PyTorch                   ████████░░
-├── TensorFlow                ███████░░░
-├── Scikit-learn               █████████░
-├── ML Systems                ███████░░░
-├── Transformers              ██████░░░░
-└── Production ML             ███████░░░
-
-ENGINEERING
-├── Python                    █████████░
-├── C++                       ████████░░
-├── Java                      ███████░░░
-├── FastAPI                   █████████░
-├── Docker                    ████████░░
-└── Testing                   █████████░
-```
-
-*Bars represent current working depth, not a claim of mastery.*
+<p align="center"><sub>Bars represent current working depth, not a claim of mastery.</sub></p>
 
 ---
 
