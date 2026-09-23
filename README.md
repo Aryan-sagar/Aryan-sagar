@@ -15,30 +15,9 @@
 
 ## `> BOOT_SEQUENCE`
 
-```text
-INITIALIZING ARYAN.SAGAR...
-
-[████████████████████████████████] 100%
-
-IDENTITY        → SYSTEMS / ML / DATA
-ENVIRONMENT     → DISTRIBUTED SYSTEMS / STREAMING
-PRIMARY WEAPON  → PYTHON / C++ / SQL / FLINK
-CURRENT MODE    → BUILD
-STATUS          → ONLINE
-
-MISSION:
-    Build software that stays correct
-    when reality stops cooperating.
-
-    • retries & race conditions
-    • duplicate requests & bad data
-    • network failures & concurrent writes
-    • distribution shift & partial outages
-    • exactly-once semantics & backpressure
-    • out-of-order events & late data
-
-SYSTEM READY.
-```
+<p align="center">
+  <img src="boot-sequence.svg" alt="Boot sequence: Systems, ML, Data. Build software that stays correct when reality stops cooperating." width="100%"/>
+</p>
 
 ---
 
