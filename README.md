@@ -71,80 +71,25 @@
 
 ## `07` — THE RULES
 
-I optimize for a few things.
-
-```text
-┌────────────────────────────────────────────┐
-│                                            │
-│                CORRECTNESS                 │
-│                     ▲                      │
-│                     │                      │
-│         RELIABILITY ┼ PERFORMANCE          │
-│                     │                      │
-│                     ▼                      │
-│               OBSERVABILITY                │
-│                                            │
-└────────────────────────────────────────────┘
-```
-
-1. **Correctness before cleverness:** A system that produces the wrong answer faster is still wrong.
-2. **Failure is a feature:** Retries, duplicate messages, race conditions, partial failures, and corrupted assumptions aren't edge cases. They're the system.
-3. **Measure it:** If performance matters: **benchmark it.** If reliability matters: **test it.** If a model matters: **evaluate it.**
-4. **Understand the abstraction:** I like frameworks. I like them much less when I don't understand what they're hiding.
+<p align="center">
+  <img src="rules.svg" alt="The rules: correctness before cleverness, failure is a feature, measure it, understand the abstraction" width="100%"/>
+</p>
 
 ---
 
 ## `08` — CURRENTLY LEARNING
 
-```text
-                ┌─────────────────┐
-                │   GO DEEPER     │
-                └────────┬────────┘
-                         │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-   DISTRIBUTED       ML SYSTEMS       STORAGE
-    SYSTEMS
-        │                │                │
-   • Consensus      • Transformers   • WAL / LSM
-   • Replication    • Serving        • Compaction
-   • Fault Tol.     • Evaluation     • Indexing
-   • Failure Rec.   • Monitoring     • Recovery
-   • Exactly-once   • Feature store  • Lakehouse
-```
-
----
-
-## `09` — THE NUMBERS
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aryan-sagar&hide_border=true&background=0c1210&ring=5eead4&fire=ffb454&currStreakNum=ffb454&currStreakLabel=5eead4&sideNums=5eead4&sideLabels=7fa89c&dates=7fa89c" height="170" alt="Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Aryan-sagar?style=flat-square&labelColor=0c1210&color=5eead4" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/Aryan-sagar?style=flat-square&labelColor=0c1210&color=ffb454&affiliations=OWNER" alt="Stars"/>
-  <img src="https://img.shields.io/github/created-at/Aryan-sagar?style=flat-square&labelColor=0c1210&color=5eead4&label=on%20GitHub%20since" alt="Since"/>
+  <img src="learning.svg" alt="Currently learning: distributed systems, ML systems, storage" width="100%"/>
 </p>
 
 ---
 
-## `10` — ACHIEVEMENT LOG
+## `11` — THE DIRECTOR'S CUT
 
 <p align="center">
-  <img src="achievements.svg" alt="Achievement log" width="100%"/>
+  <img src="director-cut.svg" alt="Where engineering and filmmaking rhyme" width="100%"/>
 </p>
-
----
-
-## `11` — OUTSIDE THE TERMINAL
-
-When I'm not thinking about distributed state, race conditions, or financial ledgers:
-
-🎬 Filmmaking · 📷 Photography · 🎞️ Cinematography · 🎸 Guitar · 📚 Psychology, philosophy & history
-
-> *Because engineering and filmmaking share one annoying truth:*
-> **The details matter.**
 
 ---
 
@@ -154,24 +99,12 @@ When I'm not thinking about distributed state, race conditions, or financial led
 
 ### Want to talk systems, ML, data, markets, or just build something ridiculous?
 
-**[LinkedIn](http://www.linkedin.com/in/aryan-sagar-755947254)** · **[GitHub](https://github.com/Aryan-sagar)** · **[Email](mailto:aryansagar.workspace@gmail.com)**
+<a href="http://www.linkedin.com/in/aryan-sagar-755947254"><img src="btn-linkedin.svg" alt="LinkedIn" height="48"/></a>
+<a href="https://github.com/Aryan-sagar"><img src="btn-github.svg" alt="GitHub" height="48"/></a>
+<a href="mailto:aryansagar.workspace@gmail.com"><img src="btn-email.svg" alt="Email" height="48"/></a>
 
 </div>
 
----
-
-<div align="center">
-
-```text
-BUILD → BREAK → MEASURE → UNDERSTAND → REBUILD
-
-                         ↓
-
-              MAKE IT SURVIVE REALITY.
-```
-
-### `SYSTEM STATUS: BUILDING`
-
-</div>
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0c1210,100:070a09&height=100&section=footer)
+<p align="center">
+  <img src="closing.svg" alt="Build, break, measure, understand, rebuild. Make it survive reality. System status: building." width="100%"/>
+</p>
